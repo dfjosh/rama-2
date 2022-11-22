@@ -7,6 +7,10 @@ class Podcast < ApplicationRecord
     EPISODIC = "episodic"
     SERIAL = "serial"
   end
+
+  def to_param
+    slug
+  end
   
   def self.where_state(states = [])
     self.where(state: states)

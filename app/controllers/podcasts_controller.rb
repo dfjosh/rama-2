@@ -2,58 +2,42 @@ class PodcastsController < ApplicationController
   # before_action :authenticate_user, only: [:create, :update, :destroy]
   
   def index
-    podcasts = Podcast.all
-    scopes = []
-    
-    if !current_user&.is_admin?
-      scopes << { scope: :where_state, args: [Post::States::PUBLISHED] }
-    end
-    
-    if filters = params[:filters]
-      filters.each do |filter|
-        filter = filter.second
-        scopes << {
-          scope: "where_#{filter[:scope]}".to_sym, 
-          args: filter[:args]
-        }
-      end
-    end
-    
-    podcasts = scopes.inject(Podcast.all) do |model, scope|
-      puts "scoping #{model.name} --> #{scope.inspect}"
-      model.send(scope[:scope], *scope[:args])
-    end
-    
-    podcasts = podcasts.order(created_at: :desc)
-
-    render json: podcasts
+    @podcasts = Podcast.all.order(created_at: :desc)
   end
   
   def show
-    podcast = Podcast.find_by_slug(params[:slug])
-    render json: podcast
+    @podcast = Podcast.find_by_slug(params[:slug])
+  end
+
+  def new
+    @podcast = Podcast.new
+  end
+
+  def edit
+    @podcast = Podcast.find_by_slug(params[:slug])
   end
   
   def create
-    if podcast = Podcast.create!(podcast_params)
-      render json: podcast
+    if @podcast = Podcast.create!(podcast_params)
+      redirect_to podcast_url(@podcast), notice: "Podcast was successfully created."
     else
-      render json: {error: 400}
+      render :new, status: :unprocessable_entity
     end
   end
   
   def update
-    podcast = Podcast.find(params[:id])
-    if podcast.update_attributes!(podcast_params)
-      render json: podcast
+    @podcast = Podcast.find_by_slug(params[:slug])
+    if @podcast.update!(podcast_params)
+      redirect_to podcast_url(@podcast), notice: "Podcast was successfully updated."
     else
-      render json: {error: 400}
+      render :edit, status: :unprocessable_entity
     end
   end
   
   def destroy
-    podcast = Podcast.find(params[:id])
+    podcast = Podcast.find_by_slug(params[:slug])
     podcast.destroy!
+    redirect_to podcast_url, notice: "Podcast was successfully deleted."
   end
   
   private

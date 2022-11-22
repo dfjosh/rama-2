@@ -8,8 +8,7 @@ Rails.application.routes.draw do
   resources :comments
   resources :enclosures
   resources :episodes
-  get 'podcasts/:slug' => 'podcasts#show'
-  resources :podcasts
+  resources :podcasts, param: :slug
   resources :posts, param: :slug
   resources :tags
 
