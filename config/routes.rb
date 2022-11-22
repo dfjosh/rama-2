@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   resources :episodes
   get 'podcasts/:slug' => 'podcasts#show'
   resources :podcasts
-  resources :posts
+  resources :posts, param: :slug
   resources :tags
 
 end

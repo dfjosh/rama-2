@@ -2,38 +2,44 @@ class TagsController < ApplicationController
   # before_action :authenticate_user, only: [:create, :update, :destroy]
 
   def index
-    tags = Tag.all.order(id: :desc)
-    render json: tags
+    @tags = Tag.all.order(id: :desc)
   end
   
   def show
-    tag = Tag.find(params[:id])
-    render json: tag
+    @tag = Tag.find(params[:id])
+  end
+
+  def new
+    @tag = Tag.new
+  end
+
+  def edit
+    @tag = Tag.find(params[:id])
   end
   
   def create
-    tag = Tag.create!(tag_params)
-    if tag
-      render json: tag
+    @tag = Tag.create!(tag_params)
+    if @tag
+      redirect_to tag_url(@tag), notice: "Tag was successfully created."
     else
-      render json: {error: 400}
+      render :new, status: :unprocessable_entity
     end
   end
   
   def update
-    tag = Tag.find(params[:id])
-    if tag.update_attributes!(tag_params)
-      render json: tag
+    @tag = Tag.find(params[:id])
+    if @tag.update(tag_params)
+      redirect_to tag_url(@tag), notice: "Tag was successfully updated."
     else
-      render json: {error: 400}
+      render :edit, status: :unprocessable_entity
     end
   end
   
   def destroy
-    tag = Tag.find(params[:id])
-    tag.destroy!
-  end
-  
+    @tag = Tag.find(params[:id])
+    @tag.destroy!
+    redirect_to tags_url, notice: "Tag was successfully deleted."
+  end  
   private
   
   def tag_params

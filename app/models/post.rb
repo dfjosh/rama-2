@@ -16,6 +16,11 @@ class Post < ApplicationRecord
     PUBLISHED = "PUBLISHED"
     ARCHIVED = "ARCHIVED"
   end
+
+  # override so that methods like post_path can still accept @post and it will know to pass slug in place of id
+  def to_param
+    slug
+  end
   
   def self.where_post_id(id = [])
     self.where(id: id)

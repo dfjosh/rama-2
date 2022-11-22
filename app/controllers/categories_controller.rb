@@ -8,6 +8,14 @@ class CategoriesController < ApplicationController
   def show
     @category = Category.find(params[:id])
   end
+
+  def new
+    @category = Category.new
+  end
+
+  def edit
+    @category = Category.find(params[:id])
+  end
   
   def create
     @category = Category.create!(category_params)
@@ -20,8 +28,8 @@ class CategoriesController < ApplicationController
   
   def update
     @category = Category.find(params[:id])
-    if @category.update_attributes!(category_params)
-      redirect_to category_url(@category), notice: "Catgory was successfully updated."
+    if @category.update(category_params)
+      redirect_to category_url(@category), notice: "Category was successfully updated."
     else
       render :edit, status: :unprocessable_entity
     end

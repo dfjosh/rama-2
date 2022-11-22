@@ -2,72 +2,44 @@ class PostsController < ApplicationController
   # before_action :authenticate_user, only: [:create, :update, :destroy]
   
   def index
-    posts = Post.all # I would think it would be bad to do a Post.all and then later do more #where calls, but it doesn't actually appear to make a separate db query here...don't know why
-    scopes = []
-    
-    if !current_user&.is_admin?
-      scopes << { scope: :where_state, args: [Post::States::PUBLISHED] }
-    end
-    
-    if filters = params[:filters]
-      filters.each do |filter|
-        filter = filter.second
-        scopes << {
-          scope: "where_#{filter[:scope]}".to_sym, 
-          args: filter[:args]
-        }
-      end
-    end
-    
-    posts = scopes.inject(Post.all) do |model, scope|
-      puts "scoping #{model.name} --> #{scope.inspect}"
-      model.send(scope[:scope], *scope[:args])
-    end
-    
-    limit = params[:limit]&.to_i
-    page = params[:page]&.to_i
-    offset = limit && page ? (page - 1) * limit : nil
-    
-    posts = posts.group("posts.id").order("posts.published_at DESC")
-    total = posts.length # NOTE must happen AFTER grouping! TODO or should I be sending the number of pages?
-    posts = posts.includes(params[:includes]).limit(limit).offset(offset) # NOTE only gets includes for the paginated subset. Much more efficient!
-
-    # options = { # need to rethink includes after having switched to AMS. right now just sideloading everyting in serializer
-    #   include: params[:includes], 
-    #   meta: {total: total}
-    # }
-    render json: posts, meta: {total: total}
+    @posts = Post.all.order(created_at: :desc).limit(10) # TODO
   end
   
   def show
-    post = Post.find_by_slug(params[:slug])
-    render json: post
+    @post = Post.find_by_slug params[:slug]
+  end
+
+  def new
+    @post = Post.new
+  end
+
+  def edit
+    @post = Post.find_by_slug params[:slug]
   end
   
   def create
-    post = Post.new(post_params)
-    post.published_at = DateTime.now.utc # TODO allow this to be set in the UI
-    if post.save!
-      render json: post
+    @post = Post.new post_params 
+    @post.published_at = DateTime.now.utc # TODO allow this to be set in the UI
+    if @post.save!
+      redirect_to post_url(@post), notice: "Post was successfully created."
     else
-      render json: {error: 400}
+      render :new, status: :unprocessable_entity
     end
   end
   
   def update
-    post = Post.find(params[:id])
-    # post = Post.find_by_slug(params[:slug])
-    if post.update_attributes!(post_params)
-      render json: post
+    @post = Post.find_by_slug params[:slug]
+    if @post.update! post_params
+      redirect_to post_url(@post), notice: "Post was successfully updated."
     else
-      render json: {error: 400}
+      render :edit, status: :unprocessable_entity
     end
   end
   
   def destroy
-    post = Post.find(params[:id])
-    # post = Post.find_by_slug(params[:slug])
+    post = Post.find_by_slug params[:slug]
     post.destroy!
+    redirect_to posts_url, notice: "Post was successfully deleted."
   end
   
   private
