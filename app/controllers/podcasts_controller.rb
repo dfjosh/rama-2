@@ -18,7 +18,7 @@ class PodcastsController < ApplicationController
   end
   
   def create
-    if @podcast = Podcast.create!(podcast_params)
+    if @podcast = Podcast.create!(podcast_params.merge({user_id: 1}))
       redirect_to podcast_url(@podcast), notice: "Podcast was successfully created."
     else
       render :new, status: :unprocessable_entity

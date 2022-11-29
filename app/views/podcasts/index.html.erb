@@ -1,14 +1,14 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Posts</h1>
+<h1>Podcasts</h1>
 
-<div id="posts">
-  <% @posts.each do |post| %>
-    <%= render post %>
+<div id="podcasts">
+  <% @podcasts.each do |podcast| %>
+    <%= render podcast %>
     <p>
-      <%= link_to "Show this post", post_path(post) %>
+      <%= link_to "Show this podcast", podcast_path(podcast) %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New post", new_post_path %>
+<%= link_to "New podcast", new_podcast_path %>

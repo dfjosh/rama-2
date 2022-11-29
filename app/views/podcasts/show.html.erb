@@ -1,18 +1,5 @@
-<h3><%= @post.title %></h3>
-<p>Categories</p>
-<ul>
-    <% @post.categories.each do |category| %>
-        <li><%= category.name %></li>
-    <% end %>
-</ul>
-<% if @post.tags.present? %>
-    <p>Tags</p>
-    <ul>
-        <% @post.tags.each do |tag| %>
-            <li><%= tag.name %></li>
-        <% end %>
-    </ul>
-<% end %>
-<%= link_to "Edit", edit_post_path(@post) %>
-<%= button_to "Delete", @post, method: :delete %>
-<%= link_to "Back to posts", posts_path %>
+<p style="color: green"><%= notice %></p>
+<h3><%= @podcast.title %></h3>
+<%= link_to "Edit", edit_podcast_path(@podcast) %>
+<%= button_to "Delete", @podcast, method: :delete %>
+<%= link_to "Back to podcasts", podcasts_path %>

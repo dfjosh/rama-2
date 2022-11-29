@@ -1,11 +1,11 @@
-<%= form_with model: post do |form| %>
-    <% if post.errors.any? %>
+<%= form_with model: podcast do |form| %>
+    <% if podcast.errors.any? %>
         <div style="color: red">
             <h2>
-                <%= pluralize post.errors.count, "error"%> prohibited this post from being saved:
+                <%= pluralize podcast.errors.count, "error"%> prohibited this podcast from being saved:
             </h2>
             <ul>
-                <% post.errors.each do |error| %>
+                <% podcast.errors.each do |error| %>
                     <li><%= error.full_message %></li>
                 <% end %>
             </ul>
@@ -15,6 +15,56 @@
     <div>
         <%= form.label :title, style: "display: block" %>
         <%= form.text_field :title %>
+    </div>
+    <div>
+        <%= form.label :description, style: "display: block" %>
+        <%= form.text_area :description %>
+    </div>
+    <div>
+        <%= form.label :website, style: "display: block" %>
+        <%= form.text_field :website %>
+    </div>
+    <div>
+        <%= form.radio_button :podcast_type, Podcast::PodcastTypes::EPISODIC %>
+        <%= form.label :podcast_type, "Episodic" %>
+        <%= form.radio_button :podcast_type, Podcast::PodcastTypes::SERIAL %>
+        <%= form.label :podcast_type, "Serial" %>
+    </div>
+    <div>
+        <%= form.label :feed, style: "display: block" %>
+        <%= form.text_field :feed %>
+    </div>
+    <div>
+        <%= form.label :image, style: "display: block" %>
+        <%= form.text_field :image %>
+    </div>
+    <div>
+        <%= form.label :category, style: "display: block" %>
+        <%= form.text_field :category %>
+    </div>
+    <div>
+        <%= form.label :subcategory, style: "display: block" %>
+        <%= form.text_field :subcategory %>
+    </div>
+    <div>
+        <%= form.check_box :explicit %>
+        <%= form.label :explicit %>
+    </div>
+    <div>
+        <%= form.label :slug, style: "display: block" %>
+        <%= form.text_field :slug %>
+    </div>
+    <div>
+        <%= form.label :state, style: "display: block" %>
+        <%= form.select :state, Post::States.constants %>
+    </div>
+    <div>
+        <%= form.label :header_image, style: "display: block" %>
+        <%= form.text_field :header_image %>
+    </div>
+    <div>
+        <%= form.label :external_ID, style: "display: block" %>
+        <%= form.text_field :external_ID %>
     </div>
 
     <%= form.submit %>
