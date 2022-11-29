@@ -2,59 +2,44 @@ class EpisodesController < ApplicationController
   # before_action :authenticate_user, only: [:create, :update, :destroy]
 
   def index
-    episodes = Episode.all
-    scopes = []
-    
-    if filters = params[:filters]
-      puts "filters => #{filters.inspect}"
-      filters.each do |filter|
-        puts 
-        filter = filter.second # because array params are hasherzied: {"filters"=>{"0"=>{"scope"=>"post_id", "args"=>["111"]}}}
-        puts "filter => #{filter.inspect}"
-        scopes << {
-          scope: "where_#{filter[:scope]}".to_sym, 
-          args: filter[:args]
-        }
-      end
-    end
-    
-    episodes = scopes.inject(Episode.all) do |model, scope|
-      puts "scoping #{model.name} --> #{scope.inspect}"
-      model.send(scope[:scope], *scope[:args])
-    end
-    
-    episodes = episodes.joins(:post).includes(params[:includes]).order("posts.published_at DESC")
-    
-    render json: episodes
+    @episodes = Episode.all.order(created_at: :desc)
   end
   
   def show
-    episode = Episode.find(params[:id])
-    render json: episode
+    @episode = Episode.find(params[:id])
+  end
+
+  def new
+    @episode = Episode.new
+  end
+
+  def edit
+    @episode = Episode.find(params[:id])
   end
   
   def create
-    episode = Episode.new(episode_params)
-    episode.guid = SecureRandom.uuid
-    if episode.save!
-      render json: episode
+    number = Episode.all.map(&:number).max + 1
+    guid = SecureRandom.uuid
+    if @episode = Episode.create!(episode_params.merge({number: number, guid: guid}))
+      redirect_to episode_url(@episode), notice: "Episode was successfully created."
     else
-      render json: {error: 400}
+      render :new, status: :unprocessable_entity
     end
   end
   
   def update
-    episode = Episode.find(params[:id])
-    if episode.update_attributes!(episode_params)
-      render json: episode
+    @episode = Episode.find(params[:id])
+    if @episode.update!(episode_params)
+      redirect_to episode_url(@episode), notice: "Episode was successfully updated."
     else
-      render json: {error: 400}
+      render :edit, status: :unprocessable_entity
     end
   end
   
   def destroy
     episode = Episode.find(params[:id])
     episode.destroy!
+    redirect_to episode_url, notice: "Episode was successfully deleted."
   end
   
   private

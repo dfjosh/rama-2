@@ -6,6 +6,10 @@ class User < ApplicationRecord
   has_many :episodes
   has_many :podcasts
   
+  def full_name
+    [first_name, last_name].join(" ").strip
+  end
+
   def is_admin?
     is_admin
   end

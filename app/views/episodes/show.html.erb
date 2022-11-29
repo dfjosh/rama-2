@@ -1,0 +1,7 @@
+<p style="color: green"><%= notice %></p>
+<h3><%= @episode.title %></h3>
+<p><%= @episode.number %></p>
+<p><%= @episode.summary %></p>
+<%= link_to "Edit", edit_episode_path(@episode) %>
+<%= button_to "Delete", @episode, method: :delete %>
+<%= link_to "Back to episodes", episodes_path %>

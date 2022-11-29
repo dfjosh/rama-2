@@ -1,0 +1,53 @@
+<%= form_with model: episode do |form| %>
+    <% if episode.errors.any? %>
+        <div style="color: red">
+            <h2>
+                <%= pluralize episode.errors.count, "error"%> prohibited this episode from being saved:
+            </h2>
+            <ul>
+                <% episode.errors.each do |error| %>
+                    <li><%= error.full_message %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <div>
+        <%= form.label :title, style: "display: block" %>
+        <%= form.text_field :title %>
+    </div>
+    <div>
+        <%= form.label :summary, style: "display: block" %>
+        <%= form.text_area :summary %>
+    </div>
+    <div>
+        <%= form.label :episode_type, style: "display: block" %>
+        <%= form.select :episode_type, Episode::EpisodeTypes.constants %>
+    </div>
+    <div>
+        <%= form.label :duration, style: "display: block" %>
+        <%= form.text_field :duration %>
+    </div>
+    <div>
+        <%= form.check_box :explicit %>
+        <%= form.label :explicit, style: "display: block" %>
+    </div>
+    <div>
+        <%= form.label :image, style: "display: block" %>
+        <%= form.text_field :image %>
+    </div>
+    <div>
+        <%= form.label :podcast, style: "display: block" %>
+        <%= form.select :podcast_id, Podcast.all.map{|p| [p.title, p.id]} %>
+    </div>
+    <div>
+        <%= form.label :post_id %>
+        <%= form.text_field :post_id %>
+    </div>
+    <div>
+        <%= form.label :user, style: "display: block" %>
+        <%= form.select :user_id, User.all.map{|u| [u.full_name, u.id]} %>
+    </div>
+
+    <%= form.submit %>
+<% end %>
