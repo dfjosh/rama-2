@@ -1,0 +1,184 @@
+/* Reset */
+
+	html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;} .cf:before, .cf:after {content: " ";display: table;} .cf:after {clear: both;} /*.cf {*zoom: 1;}*/
+	
+	*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Layout */
+
+.wrapper {
+	max-width: 500px;
+	margin: 0px auto;
+}
+
+.screen {
+	width: 96%;
+	margin: 12px auto;
+	border-radius: 10%;
+	position: relative;
+	background-color: aqua;
+	overflow: hidden;
+}
+.thomas {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.controller {
+	width: 96%;
+	margin: 12px auto 12px auto;
+	position: relative;
+}
+.controller img {
+	position: absolute;
+}
+.d-pad, .d-pad-shadow, .start, .select, .b, .a {
+	-webkit-transition: 0.1s;
+	-moz-transition: 0.1s;
+	transition: 0.1s;
+}
+.paddle {
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+.d-pad {
+	width: 19%;
+	top: 35%;
+	left: 10%;
+}
+.d-pad-shadow {
+	width: 19%;
+	top: 37%;
+	left: 9.2%;
+}
+.d-pad-container {
+	position: absolute;
+	width: 19%;
+	top: 35%;
+	left: 10%;
+}
+.d-pad-container div {
+	width: 33.333%;
+	height: 33.333%;
+	float: left;
+}
+.start {
+	width: 10%;
+	top: 54%;
+	left: 38%;
+}
+.start-shadow {
+	width: 10%;
+	top: 55.5%;
+	left: 37.5%;
+}
+.start-text {
+	width: 9%;
+	top: 62%;
+	left: 38.5%;
+}
+.select {
+	width: 10%;
+	top: 54%;
+	left: 50%;
+}
+.select-shadow {
+	width: 10%;
+	top: 55.5%;
+	left: 49.5%;
+}
+.select-text {
+	width: 10.1%;
+	top: 62%;
+	left: 50.2%;
+}
+.b {
+	width: 10%;
+	top: 45%;
+	left: 67%;
+}
+.b-shadow {
+	width: 10%;
+	top: 47%;
+	left: 66.2%;
+}
+.a {
+	width: 10%;
+	top: 45%;
+	left: 80%;
+}
+.a-shadow {
+	width: 10%;
+	top: 47%;
+	left: 79.2%;
+}
+
+/* transitions */
+
+.start:hover {
+	top: 55.5%;
+	left: 37.5%;
+}
+.select:hover {
+	top: 55.5%;
+	left: 49.5%;
+}
+.b:hover {
+	top: 47%;
+	left: 66.2%;
+}
+.a:hover {
+	top: 47%;
+	left: 79.2%;
+}
+.up {
+	-webkit-transform: perspective(500px) rotateX(20deg);
+	-moz-transform: perspective(500px) rotateX(20deg);
+	transform: perspective(500px) rotateX(20deg);
+}
+.down {
+	-webkit-transform: perspective(500px) rotateX(-20deg);
+	-moz-transform: perspective(500px) rotateX(-20deg);
+	transform: perspective(500px) rotateX(-20deg);
+}
+.left {
+	-webkit-transform: perspective(500px) rotateY(-20deg);
+	-moz-transform: perspective(500px) rotateY(-20deg);
+	transform: perspective(500px) rotateY(-20deg);
+}
+.right {
+	-webkit-transform: perspective(500px) rotateY(20deg);
+	-moz-transform: perspective(500px) rotateY(20deg);
+	transform: perspective(500px) rotateY(20deg);
+}
+
+.look-right {
+	-webkit-transform: scaleX(-1);
+	-moz-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+.hints {
+	font-family: monospace;
+	color: blue;
+	margin: 4%;
+	display: none;
+}
+.hints a:link {
+	color: red;
+}
+.hints a:visited {
+	color: red;
+}
+.hints a:hover {
+	color: red;
+}
+.hints a:active {
+	color: #a30000;
+}
+.credit {
+	margin: -2% 10% ;
+	font-family: monospace;
+}

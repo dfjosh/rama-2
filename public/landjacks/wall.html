@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="landjacks/js/jquery-2.1.0.min.js">
+		</script>
+		<style>
+			body {
+				background-color: #e6e6e6;
+				margin: 1px;
+			}
+			img {
+				display: block;
+				float: left;
+				height: 75px;
+				margin: 2px;
+			}
+		</style>
+	</head>
+	<body>
+	
+		<script>
+			function shuffle(o) {
+				for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+				return o;
+			}
+
+		    $.getJSON("landjacks/js/flags.json", function(data) {
+		    	var countries = [];
+		    	$(data.flags).each(function(i) {
+				    countries.push(data.flags[i]);
+		    	});
+		    	shuffle(countries);
+		    	for (i in countries) {
+			    	$("body").append("<img src='https://s3-us-west-1.amazonaws.com/lazy-rama/landjacks/img/flags/" + countries[i].nation + ".svg'>");
+		    	}
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,679 @@
+/* Reset */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* Layout */
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	font-family: "Orbitron", sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	background-color: #373737;
+	-webkit-text-size-adjust: none;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+a.output:link {
+	color: white;
+}
+a.output:visited {
+	text-decoration: none;
+	color: white;
+}
+a.output:hover {
+	text-decoration: none;
+	color: #c6c6c6;
+}
+a.output:active {
+	text-decoration: none;
+	color: black;
+}
+
+.left {
+	float: left;
+	margin: -1px 0px 0px -4px;
+	font-size: 15px;
+}
+.left2 {
+	float: left;
+	margin: -1px 0px 0px -7px;
+	font-size: 15px;
+}
+.right {
+	float: right;
+	margin: -1px -4px 0px 0px;
+	font-size: 15px;
+}
+.right2 {
+	float: right;
+	margin: -1px -7px 0px 0px;
+	font-size: 15px;
+}
+
+
+/* Controls */
+
+.controls {
+	width: 370px;
+	padding: 0px 0px 0px 0px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.4);
+	background: #cbcbcb;
+	z-index: 1;
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+h3 {
+	width: 358px;
+	padding: 6px 6px 3px 6px;
+	margin: 0px 0px 0px 0px;
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.4);
+	background-origin: padding-box;
+	cursor: pointer;
+}
+.controls > h3 + div {
+	display: none;
+}
+.controls > h3:nth-of-type(1) {
+	background-color: hsl(0,0%,40%);
+}
+.controls > h3:nth-of-type(2) {
+	background-color: hsl(0,0%,48.33%);
+}
+.controls > h3:nth-of-type(3) {
+	background-color: hsl(0,0%,56.66%);
+}
+.controls > h3:nth-of-type(4) {
+	background-color: hsl(0,0%,65%);
+}
+.controls h3 + div {
+	margin: 5px 5px 0px 0px;
+}
+small {
+	font-size: small;
+	color: white;
+}
+small.half {
+	display: inline-block;
+	width: 39%;
+}
+.output {
+	text-transform: capitalize;
+}
+.destination {
+	width: 360px;
+	margin-left: 5px !important;
+}
+.destination div {
+	width: 36px;
+	height: 36px;
+	margin: 2px;
+	border-radius: 50%;
+	float: left;
+}
+.destination div a {
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+.destination > a {
+	font-size: xx-small;
+	float: left;
+	text-align: center;
+	width: 40px;
+}
+.controls h3 .stop {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	color: white;
+}
+.velocity div {
+	width: 100%;
+	float: left;
+}
+.steppers {
+	margin-top: 7px;
+}
+.steppers p {
+	margin-top: -5px;
+	margin-bottom: 2px;
+}
+.velocity div.steppers div, .scale div.steppers div {
+	width: 18%;
+	float: left;
+	background-color: white;
+	margin-left: 2%;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+.velocity div.steppers div a, .scale div.steppers div a {
+	display: block;
+	text-align: center;
+	padding: 4px 0px 0px 0px;
+}
+.velocity div.presets div {
+	width: 31.1111%;
+	float: left;
+	background-color: white;
+	margin-left: 2%;
+	margin-bottom: 8px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+.velocity div.presets div a {
+	display: block;
+	text-align: center;
+	padding: 4px 0px 2px 0px;
+}
+.scale div {
+	width: 100%;
+	float: left;
+}
+.controls p {
+	font-size: 12px;
+	padding: 5px 0px 5px 6px;
+}
+.velocity .lcd, .scale .lcd {
+	background-color: #373737 !important;
+	color: white;
+	box-shadow: none !important;
+	position: relative;
+	bottom: 4px;
+}
+.velocity .lcd .output, .scale .lcd .output {
+	display: block;
+	text-align: center;
+	height: 24px;
+/* 	font-size: x-large; */
+}
+.velocity .lcd a.output, .scale .lcd a.output {
+	height: 20px;
+	padding-top: 7px;
+	padding-bottom: 1px;
+}
+.options div {
+	width: 23%;
+	height: 28px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+.options > div {
+	background-color: white;
+}
+.options a {
+	display: block;
+	text-align: center;
+	font-size: 8pt;
+	padding: 4px 0px 2px 0px;
+}
+.options > .triple {
+	background-color: transparent;
+	box-shadow: none;
+}
+.triple div {
+	width: 28%; /* 30 looks perfect in Safari but is screwed up in Chrome and Firefox */
+	height: 100%;
+	margin: 0 0 0 7%;
+}
+.triple div:first-of-type {
+	margin-left: 0%;
+}
+.triple a {
+	display: block;
+	height: 17px;
+	width: 100%;
+	padding: 11px 0px 0px 0px;
+}
+.options p {
+	display: block;
+	float: left;
+	clear: left;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.options p a {
+	display: inline;
+	font-size: 12px;
+	padding: 0px;
+	-webkit-transition: 0.15s;
+	transition: 0.15s;
+}
+.options p a:hover {
+	color: white;
+}
+a.eccentricityButton {
+	font-size: 7.5pt;
+}
+
+/* Tutorial */
+
+.controls .browser p {
+	width: 354px;
+	background-color: hsla(0,75%,53%,0.88);
+	padding: 8px;
+	border-radius: 0px 0px 3px 3px;
+	box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.4);
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	-webkit-user-select: none;
+	text-align: center;
+	cursor: pointer;
+}
+noscript {
+	 width: 100%;
+	 height:25px;
+	 background-color: #DC143C;
+	 position:fixed;
+	 bottom:0px;
+	 z-index:10;
+	 text-align:center;
+	 font-family:helvetica,sans-serif;
+	 padding-top:4px;
+}
+
+.commentary {
+	width: 100%;
+	background-color: hsla(0,75%,53%,0.88);
+	padding: 8px 0px;
+	margin-top: -40px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+ 	z-index: 1;
+	-webkit-user-select: none;
+}
+.commentary p {
+	padding: 0px 8px;
+}
+div.buttons {
+	display: inline-block;
+	margin: -4px 6px -4px 0px;
+}
+.goal {
+	color: white;
+	font-weight: 700;
+}
+
+
+/* Solar System */
+
+.solar_system {
+	width: 4504724px; /* sum of all interplanetary spaces including the neptune buffer */
+	height: 100%;
+	position: relative;
+	overflow-y: hidden;
+	background-color: #373737;
+}
+.sun {
+	width: 1393px;
+	height: 1393px;
+	margin: -697px 0px 0px -697px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(57, 100%, 65%, 1);
+}
+.interplanetary_space_sm {
+	width: 57909px;
+	min-height: 100%;
+	float: left;
+}
+.mercury {
+	width: 4px;
+	height: 4px;
+	margin: -2px 0px 0px -2px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(264, 95%, 84%, 1);
+}
+.interplanetary_space_mv {
+	width: 50299px;
+	min-height: 100%;
+	float: left;
+}
+.venus {
+	width: 12px;
+	height: 12px;
+	margin: -6px 0px 0px -6px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(99, 100%, 65%, 1);
+}
+.interplanetary_space_ve {
+	width: 41390px;
+	min-height: 100%;
+	float: left;
+}
+.earth {
+	width: 12px;
+	height: 12px;
+	margin: -6px 0px 0px -6px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(209, 100%, 65%, 1);
+}
+.interplanetary_space_em {
+	width: 78341px;
+	min-height: 100%;
+	float: left;
+}
+.mars {
+	width: 6px;
+	height: 6px;
+	margin: -3px 0px 0px -3px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(0, 100%, 65%, 1);
+}
+.interplanetary_space_mj {
+	width: 550608px;
+	min-height: 100%;
+	float: left;
+}
+.jupiter {
+	width: 142px;
+	height: 142px;
+	margin: -71px 0px 0px -71px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(35, 98%, 65%, 1);
+}
+.interplanetary_space_js {
+	width: 654902px;
+	min-height: 100%;
+	float: left;
+}
+.saturn {
+	width: 120px;
+	height: 120px;
+	margin: -60px 0px 0px -60px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(299, 100%, 65%, 1);
+}
+.interplanetary_space_su {
+	width: 1443230px;
+	min-height: 100%;
+	float: left;
+}
+.uranus {
+	width: 52px;
+	height: 52px;
+	margin: -26px 0px 0px -26px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(186, 100%, 65%, 1);
+}
+.interplanetary_space_un {
+	width: 1626765px;
+	min-height: 100%;
+	float: left;
+}
+.neptune {
+	width: 50px;
+	height: 50px;
+	margin: -25px 0px 0px -25px;
+	position: absolute;
+	top: 50%;
+	border-radius: 50%;
+	background-color: hsla(256, 100%, 65%, 1);
+}
+.interplanetary_space_n {
+	width: 1280px;
+	min-height: 100%;
+	float: left;
+	background-color: rgba(0,0,0,0.0);
+}
+.solar_system div.orbit_boundary {
+	background-color: rgba(0,0,0,0.0);
+}
+.eccentricity {
+	float: left;
+	z-index: -1;
+	display: none;
+}
+
+/* Colors */
+
+/* Distinct */
+
+.dColorSun {
+	background-color: hsla(57, 100%, 65%, 1);
+}
+.dColorSpaceSM {
+	background-color: hsla(264, 95%, 94%, 1);
+}
+.dColorMercury {
+	background-color: hsla(264, 95%, 84%, 1);
+}
+.dColorSpaceMV {
+	background-color: hsla(99, 100%, 80%, 1);
+}
+.dColorVenus {
+	background-color: hsla(99, 100%, 65%, 1);
+}
+.dColorSpaceVE {
+	background-color: hsla(209, 100%, 80%, 1);
+}
+.dColorEarth {
+	background-color: hsla(209, 100%, 65%, 1);
+}
+.dColorSpaceEM {
+	background-color: hsla(0, 100%, 80%, 1);
+}
+.dColorMars {
+	background-color: hsla(0, 100%, 65%, 1);
+}
+.dColorSpaceMJ {
+	background-color: hsla(35, 100%, 80%, 1);
+}
+.dColorJupiter {
+	background-color: hsla(35, 98%, 65%, 1);
+}
+.dColorSpaceJS {
+	background-color: hsla(299, 100%, 80%, 1);
+}
+.dColorSaturn {
+	background-color: hsla(299, 100%, 65%, 1);
+}
+.dColorSpaceSU {
+	background-color: hsla(186, 100%, 80%, 1);
+}
+.dColorUranus {
+	background-color: hsla(186, 100%, 65%, 1);
+}
+.dColorSpaceUN {
+	background-color: hsla(256, 100%, 80%, 1);
+}
+.dColorNeptune {
+	background-color: hsla(256, 100%, 65%, 1);
+}
+
+
+
+/* Accurate */
+
+.aColorSun {
+	background-color: hsla(50, 100%, 50%, 1);
+}
+.aColorSpaceSM {
+	background-color: hsla(0, 0%, 85%, 1);
+}
+.aColorMercury {
+	background-color: hsla(0, 0%, 70%, 1);
+}
+.aColorSpaceMV {
+	background-color: hsla(52, 100%, 92%, 1);
+}
+.aColorVenus {
+	background-color: hsla(52, 100%, 83%, 1);
+}
+.aColorSpaceVE {
+	background-color: hsla(233, 65%, 76%, 1);
+}
+.aColorEarth {
+	background-color: hsla(233, 65%, 58%, 1);
+}
+.aColorSpaceEM {
+	background-color: hsla(18, 100%, 73%, 1);
+}
+.aColorMars {
+	background-color: hsla(18, 100%, 61%, 1);
+}
+.aColorSpaceMJ {
+	background-color: hsla(26, 71%, 68%, 1);
+}
+.aColorJupiter {
+	background-color: hsla(26, 71%, 48%, 1);
+}
+.aColorSpaceJS {
+	background-color: hsla(42, 54%, 80%, 1);
+}
+.aColorSaturn {
+	background-color: hsla(42, 54%, 65%, 1);
+}
+.aColorSpaceSU {
+	background-color: hsla(163, 88%, 91%, 1);
+}
+.aColorUranus {
+	background-color: hsla(163, 88%, 80%, 1);
+}
+.aColorSpaceUN {
+	background-color: hsla(227, 100%, 75%, 1);
+}
+.aColorNeptune {
+	background-color: hsla(227, 100%, 64%, 1);
+}
+
+
+/* Textured */
+
+.tColorSun {
+	background: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/sun.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorMercury {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/mercury.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorVenus {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/venus.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorEarth {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/earth.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorMars {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/mars.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorJupiter {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/jupiter.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorSaturn {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/saturn.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorUranus {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/uranus.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.tColorNeptune {
+	background-image: url(https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/neptune.svg);
+	background-size: cover;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	overflow: visible;
+}
+.gray {
+	background-color: #7f7f7f;
+}
+.red {
+	background-color: #ffb9b9 !important;
+}
+.lightGreen {
+	background-color: #e9ffed !important;
+}
+.green {
+	background-color: #9cffb0 !important;
+}
+.blue {
+	background-color: #95b7ff !important;
+}
+.black {
+	background-color: black;
+}
+.dark {
+	background-color: rgba(0,0,0,0.3) !important;
+}

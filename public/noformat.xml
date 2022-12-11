@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>No Format</title>
+    <link>http://www.distantfuturejosh.com/noformat</link>
+    <description>Trying to explain what this podcast is about would be like trying to teach grandma how to send an email. It seems easy enough at first but you'll soon find it an impossible task. No Format is not a nerd-cast; we're clearly two social, pleasant, good looking gentlemen (ep. 28). No Format is not a comedy-cast; we never joke about the topic at hand and take our jobs very seriously as distributors of internet content (ep. 15). No Format is not a videogame-cast; Josh has only beaten 6 out of 8 Zelda games and we rarely play videogames while podcasting (ep. 7). No Format is not a science-cast; the occasional episode on nuclear fission and mathematical proofs will appear now and then, but all together we are not great sources of information (ep. 11 &amp; 39). And lastly, No Format is by no means a film-cast; we just happen to know someone who makes movies (ep. 27). It also just happens that we have excellent taste and never come to dissagreements on movies (ep. 42). So what would one expect from a typical episode? We don't really have a format. Chances are if you have a mustache, play(ed) with Ninja Turtles, own a telescope, hate ugly fonts, have a friend from Korea, enjoy a good scotch, have a favorite dinosaur, wished you could golf better, prefer the original theatrical Star Wars, or in general read Wikipedia articles at least 3 times per day, you'll probably find what you've been looking for all along in this, the No Format podcast.</description>
+    <image>
+      <url>https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/graphics/no_format_podcast.jpg</url>
+      <title>No Format</title>
+      <link>http://www.distantfuturejosh.com/noformat/</link>
+    </image>
+    <ttl>60</ttl>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+    <itunes:owner>
+      <itunes:name>Josh Wetenkamp &amp; Jason Hayes</itunes:name>
+      <itunes:email>weresorrywedonthaveanemail@noformat.com</itunes:email>
+    </itunes:owner>
+    <itunes:subtitle>A Podcast About Super Important Stuff</itunes:subtitle>
+    <itunes:summary>Trying to explain what this podcast is about would be like trying to teach grandma how to send an email. It seems easy enough at first but you'll soon find it an impossible task. No Format is not a nerd-cast; we're clearly two social, pleasant, good looking gentlemen (ep. 28). No Format is not a comedy-cast; we never joke about the topic at hand and take our jobs very seriously as distributors of internet content (ep. 15). No Format is not a videogame-cast; Josh has only beaten 6 out of 8 Zelda games and we rarely play videogames while podcasting (ep. 7). No Format is not a science-cast; the occasional episode on nuclear fission and mathematical proofs will appear now and then, but all together we are not great sources of information (ep. 11 &amp; 39). And lastly, No Format is by no means a film-cast; we just happen to know someone who makes movies (ep. 27). It also just happens that we have excellent taste and never come to dissagreements on movies (ep. 42). So what would one expect from a typical episode? We don't really have a format. Chances are if you have a mustache, play(ed) with Ninja Turtles, own a telescope, hate ugly fonts, have a friend from Korea, enjoy a good scotch, have a favorite dinosaur, wished you could golf better, prefer the original theatrical Star Wars, or in general read Wikipedia articles at least 3 times per day, you'll probably find what you've been looking for all along in this, the No Format podcast.</itunes:summary>
+    <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/graphics/no_format_podcast.jpg"/>
+    <itunes:category text="Technology"/>
+    <copyright>Josh Wetenkamp &amp; Jason Hayes</copyright>
+    <language>en</language>
+    <item>
+      <title>063 | Shortcut</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_063_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=063</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_063.m4a</guid>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 -0800</pubDate>
+      <description>I don&apos;t know what to write about this episode. Jason thinks it&apos;s our best episode yet, and he's being totally serial. Personally, I think he has low standards. Though I do believe you will find something of value in this episode. Like for example, a shortcut or two.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_063.m4a" length="33069469" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:54:03</itunes:duration>
+      <itunes:subtitle>I don&apos;t know what to write about this episode. Jason thinks it&apos;s our best episode yet, and he's being totally serial. Personally, I think he has low standards. Though I do believe you will find something of value in this episode. Like for example, a shortcut or two.</itunes:subtitle>
+      <itunes:summary>I don&apos;t know what to write about this episode. Jason thinks it&apos;s our best episode yet, and he's being totally serial. Personally, I think he has low standards. Though I do believe you will find something of value in this episode. Like for example, a shortcut or two.</itunes:summary>
+    </item>
+    <item>
+      <title>062 | HD</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_062_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=062</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_062.m4a</guid>
+      <pubDate>Sat, 19 Jan 2013 00:00:00 -0800</pubDate>
+      <description>No Format goes High Definition (720p) in this special edition episode. Jason and Josh come at ya from angles you didn&apos;t think were possible. Hope your downloading this on WiFi cause this one&apos;s gonna take a while, that is unless you got business class internet like myself.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_062.m4v" length="775971444" type="video/x-m4v"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:14:48</itunes:duration>
+      <itunes:subtitle>No Format goes High Definition (720p) in this special edition episode. Jason and Josh come at ya from angles you didn&apos;t think were possible. Hope your downloading this on WiFi cause this one&apos;s gonna take a while, that is unless you got business class internet like myself.</itunes:subtitle>
+      <itunes:summary>No Format goes High Definition (720p) in this special edition episode. Jason and Josh come at ya from angles you didn&apos;t think were possible. Hope your downloading this on WiFi cause this one&apos;s gonna take a while, that is unless you got business class internet like myself.</itunes:summary>
+    </item>
+    <item>
+      <title>061 | Resolutions</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_061_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=061</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_061.m4a</guid>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 -0800</pubDate>
+      <description>It&apos;s that time of the year again. Listen to Jason and I dig ourselves a 2013 Hole of Resolutions. And just so you know, it&apos;s Drambuie.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_061.m4a" length="32295559" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:52:47</itunes:duration>
+      <itunes:subtitle>It&apos;s that time of the year again. Listen to Jason and I dig ourselves a 2013 Hole of Resolutions. And just so you know, it&apos;s Drambuie.</itunes:subtitle>
+      <itunes:summary>It&apos;s that time of the year again. Listen to Jason and I dig ourselves a 2013 Hole of Resolutions. And just so you know, it&apos;s Drambuie.</itunes:summary>
+    </item>
+    <item>
+      <title>060 | The Giver</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_060_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=060</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_060.m4a</guid>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 -0800</pubDate>
+      <description>Just me and Jason this week. We discuss the book The Giver in no great detail, birthday cake frosting and kitty cats. Tell us in the comments if The Giver was part of your school curriculum!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_060.m4a" length="37119391" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:00:41</itunes:duration>
+      <itunes:subtitle>Just me and Jason this week. We discuss the book The Giver in no great detail, birthday cake frosting and kitty cats. Tell us in the comments if The Giver was part of your school curriculum!</itunes:subtitle>
+      <itunes:summary>Just me and Jason this week. We discuss the book The Giver in no great detail, birthday cake frosting and kitty cats. Tell us in the comments if The Giver was part of your school curriculum!</itunes:summary>
+    </item>
+    <item>
+      <title>059 | Halo 4</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_059_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=059</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_059.m4a</guid>
+      <pubDate>Fri, 30 Nov 2012 00:00:00 -0800</pubDate>
+      <description>ONCE AGAIN NO FORMAT IS DROPPIN&apos; SPOILERS LIKE THEY&apos;RE ENERGY SWORDS. It&apos;s not that they&apos;re a bad weapon, but who can afford to get that close to the enemy?! Travis Hayes joins us once again with his crappy mic and his unparalleled view on video games.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_059.m4a" length="36843535" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:00:13</itunes:duration>
+      <itunes:subtitle>ONCE AGAIN NO FORMAT IS DROPPIN&apos; SPOILERS LIKE THEY&apos;RE ENERGY SWORDS. It&apos;s not that they&apos;re a bad weapon, but who can afford to get that close to the enemy?! Travis Hayes joins us once again with his crappy mic and his unparalleled view on video games.</itunes:subtitle>
+      <itunes:summary>ONCE AGAIN NO FORMAT IS DROPPIN&apos; SPOILERS LIKE THEY&apos;RE ENERGY SWORDS. It&apos;s not that they&apos;re a bad weapon, but who can afford to get that close to the enemy?! Travis Hayes joins us once again with his crappy mic and his unparalleled view on video games.</itunes:summary>
+    </item>
+    <item>
+      <title>058 | Skyfall</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_058_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=058</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_058.m4a</guid>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 -0800</pubDate>
+      <description>SPOILERS! DO NOT LISTEN TO THIS EPISODE IF YOU HAVE NOT YET SEEN THE NEW JAMES BOND MOVIE &quot;SKYFALL&quot;. Acclaimed movie critic Tim Karabian once again joins the No Format podcast, this time to talk Bond. After listening, why not visit www.noformatpodcast.com and tell us what you think of the latest spy flick. Just don't disagree with me.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_058.m4a" length="39552465" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:04:40</itunes:duration>
+      <itunes:subtitle>SPOILERS! DO NOT LISTEN TO THIS EPISODE IF YOU HAVE NOT YET SEEN THE NEW JAMES BOND MOVIE &quot;SKYFALL&quot;. Acclaimed movie critic Tim Karabian once again joins the No Format podcast, this time to talk Bond. After listening, why not visit www.noformatpodcast.com and tell us what you think of the latest spy flick. Just don't disagree with me.</itunes:subtitle>
+      <itunes:summary>SPOILERS! DO NOT LISTEN TO THIS EPISODE IF YOU HAVE NOT YET SEEN THE NEW JAMES BOND MOVIE &quot;SKYFALL&quot;. Acclaimed movie critic Tim Karabian once again joins the No Format podcast, this time to talk Bond. After listening, why not visit www.noformatpodcast.com and tell us what you think of the latest spy flick. Just don't disagree with me.</itunes:summary>
+    </item>
+    <item>
+      <title>057 | J-Cast</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_057_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=057</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_057.m4a</guid>
+      <pubDate>Tue, 13 Nov 2012 00:00:00 -0800</pubDate>
+      <description>Another lonely episode :( Josh takes on 3 school teachers in this episode of the No Format Podcast.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_057.m4a" length="25000996" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:40:50</itunes:duration>
+      <itunes:subtitle>Another lonely episode :( Josh takes on 3 school teachers in this episode of the No Format Podcast.</itunes:subtitle>
+      <itunes:summary>Another lonely episode :( Josh takes on 3 school teachers in this episode of the No Format Podcast.</itunes:summary>
+    </item>
+    <item>
+      <title>056 | Skydive</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_056_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=056</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_056.m4a</guid>
+      <pubDate>Fri, 02 Nov 2012 00:00:00 -0700</pubDate>
+      <description>Semi-retired skydiver John McKee joins us this week to discuss Felix Baumgartner's controversial jump from the stratosphere.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_056.m4a" length="37898741" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:01:57</itunes:duration>
+      <itunes:subtitle>Semi-retired skydiver John McKee joins us this week to discuss Felix Baumgartner's controversial jump from the stratosphere.</itunes:subtitle>
+      <itunes:summary>Semi-retired skydiver John McKee joins us this week to discuss Felix Baumgartner's controversial jump from the stratosphere.</itunes:summary>
+    </item>
+    <item>
+      <title>055 | The Reveal</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_055_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=055</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_055.m4a</guid>
+      <pubDate>Fri, 26 Oct 2012 00:00:00 -0700</pubDate>
+      <description>If you know Joshua personally, you've probably noticed he speaks spanish. If you've ever asked him how he learned, you either got a curt,"I lived in Ecuador", or he told you a lie. In this episode of the No Format Podcast, Joshua reveals the truth and the reasons behind it.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_055.m4a" length="31410780" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:51:20</itunes:duration>
+      <itunes:subtitle>If you know Joshua personally, you've probably noticed he speaks spanish. If you've ever asked him how he learned, you either got a curt,"I lived in Ecuador", or he told you a lie. In this episode of the No Format Podcast, Joshua reveals the truth and the reasons behind it.</itunes:subtitle>
+      <itunes:summary>If you know Joshua personally, you've probably noticed he speaks spanish. If you've ever asked him how he learned, you either got a curt,"I lived in Ecuador", or he told you a lie. In this episode of the No Format Podcast, Joshua reveals the truth and the reasons behind it.</itunes:summary>
+    </item>
+    <item>
+      <title>054 | Post Tough Mudder</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_054_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=054</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_054.m4a</guid>
+      <pubDate>Fri, 19 Oct 2012 00:00:00 -0700</pubDate>
+      <description>Jason, Jason and Jesus are back from their Tough Mudder adventures in various parts of California. They discuss being tough while I listen and accidentally come to the conclusion that I am drinking a Cosmo (it was, however, delicious).</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_054.m4a" length="30486901" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:49</itunes:duration>
+      <itunes:subtitle>Jason, Jason and Jesus are back from their Tough Mudder adventures in various parts of California. They discuss being tough while I listen and accidentally come to the conclusion that I am drinking a Cosmo (it was, however, delicious).</itunes:subtitle>
+      <itunes:summary>Jason, Jason and Jesus are back from their Tough Mudder adventures in various parts of California. They discuss being tough while I listen and accidentally come to the conclusion that I am drinking a Cosmo (it was, however, delicious).</itunes:summary>
+    </item>
+    <item>
+      <title>053 | Yellowstone</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_053_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=053</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_053.m4a</guid>
+      <pubDate>Fri, 12 Oct 2012 00:00:00 -0700</pubDate>
+      <description>We're back! This one's a bruiser comin' in at 98MB. Don't plan on streaming it. I'd recommend making yourself your favorite hot beverage, plopping down in front of the computer and playing a time-consuming-but-not-particularly-involving videogame as you listen to this enhanced version of the No Format Podcast. You're in for some purdee pictures :)</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_053.m4a" length="98746461" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:36:39</itunes:duration>
+      <itunes:subtitle>We're back! This one's a bruiser comin' in at 98MB. Don't plan on streaming it. I'd recommend making yourself your favorite hot beverage, plopping down in front of the computer and playing a time-consuming-but-not-particularly-involving videogame as you listen to this enhanced version of the No Format Podcast. You're in for some purdee pictures :)</itunes:subtitle>
+      <itunes:summary>We're back! This one's a bruiser comin' in at 98MB. Don't plan on streaming it. I'd recommend making yourself your favorite hot beverage, plopping down in front of the computer and playing a time-consuming-but-not-particularly-involving videogame as you listen to this enhanced version of the No Format Podcast. You're in for some purdee pictures :)</itunes:summary>
+    </item>
+    <item>
+      <title>052 | Tough Mudder</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_052_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=052</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_052.m4a</guid>
+      <pubDate>Mon, 10 Sep 2012 00:00:00 -0700</pubDate>
+      <description>Ryan, the mystery knight, Taylor joins us this week in a man-scussion about being manly and getting muddy. Don't believe us? Check out the video he shot with his GoPro strapped to his head.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_052.m4a" length="33569021" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:54:52</itunes:duration>
+      <itunes:subtitle>Ryan, the mystery knight, Taylor joins us this week in a man-scussion about being manly and getting muddy. Don't believe us? Check out the video he shot with his GoPro strapped to his head.</itunes:subtitle>
+      <itunes:summary>Ryan, the mystery knight, Taylor joins us this week in a man-scussion about being manly and getting muddy. Don't believe us? Check out the video he shot with his GoPro strapped to his head.</itunes:summary>
+    </item>
+    <item>
+      <title>051 | Solid State Drive</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_051_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=051</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_051.m4a</guid>
+      <pubDate>Thu, 06 Sep 2012 00:00:00 -0700</pubDate>
+      <description>No Format: back from the dead. Spoiler: we talk about SSD's. Fact: I have mixed feelings about Jeremy Renner.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_051.m4a" length="42602230" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:09:39</itunes:duration>
+      <itunes:subtitle>No Format: back from the dead. Spoiler: we talk about SSD's. Fact: I have mixed feelings about Jeremy Renner.</itunes:subtitle>
+      <itunes:summary>No Format: back from the dead. Spoiler: we talk about SSD's. Fact: I have mixed feelings about Jeremy Renner.</itunes:summary>
+    </item>
+    <item>
+      <title>050 | Trivia Show!</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_050_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=050</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_050.m4a</guid>
+      <pubDate>Sun, 12 Aug 2012 00:00:00 -0700</pubDate>
+      <description>You're either going to find this episode slightly entertaning or dreadfully boring depending on you're knowledge of Mushrooms, Crayons and Beatrix Potter. Jason is out this week so I hope I don't make this awkward going solo. Uh oh, I think it just got awkward. Sorry.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_050.m4a" length="22116252" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:36:07</itunes:duration>
+      <itunes:subtitle>You're either going to find this episode slightly entertaning or dreadfully boring depending on you're knowledge of Mushrooms, Crayons and Beatrix Potter. Jason is out this week so I hope I don't make this awkward going solo. Uh oh, I think it just got awkward. Sorry.</itunes:subtitle>
+      <itunes:summary>You're either going to find this episode slightly entertaning or dreadfully boring depending on you're knowledge of Mushrooms, Crayons and Beatrix Potter. Jason is out this week so I hope I don't make this awkward going solo. Uh oh, I think it just got awkward. Sorry.</itunes:summary>
+    </item>
+    <item>
+      <title>049 | Fast Food</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_049_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=049</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_049.m4a</guid>
+      <pubDate>Mon, 06 Aug 2012 00:00:00 -0700</pubDate>
+      <description>Joshua hasn't eaten dinner yet so this episode is pretty much driven by the excruciating hunger pangs present in his stomach. Jack in the Box patrons will know the PR photo of two tacos that was used for this episode's artwork is far form an accurate representation of their actual appearance.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_049.m4a" length="24056706" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:39:17</itunes:duration>
+      <itunes:subtitle>Joshua hasn't eaten dinner yet so this episode is pretty much driven by the excruciating hunger pangs present in his stomach. Jack in the Box patrons will know the PR photo of two tacos that was used for this episode's artwork is far form an accurate representation of their actual appearance.</itunes:subtitle>
+      <itunes:summary>Joshua hasn't eaten dinner yet so this episode is pretty much driven by the excruciating hunger pangs present in his stomach. Jack in the Box patrons will know the PR photo of two tacos that was used for this episode's artwork is far form an accurate representation of their actual appearance.</itunes:summary>
+    </item>
+    <item>
+      <title>048 | Dark Knight Rises</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_048_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=048</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_048.m4a</guid>
+      <pubDate>Fri, 27 Jul 2012 00:00:00 -0700</pubDate>
+      <description>Long time Batman aficionado Cyrus "The Virus" Bilimoria joins us for another one of our movie reviews. As always, our reviews are riddled with spoilers so if you haven't seen The Dark Knight Rises yet, start your download, go watch the movie, then listen to episode 48 and disagree with all of our thoughts in the comments below :)</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_048.m4a" length="34258001" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:55:59</itunes:duration>
+      <itunes:subtitle>Long time Batman aficionado Cyrus "The Virus" Bilimoria joins us for another one of our movie reviews. As always, our reviews are riddled with spoilers so if you haven't seen The Dark Knight Rises yet, start your download, go watch the movie, then listen to episode 48 and disagree with all of our thoughts in the comments below :)</itunes:subtitle>
+      <itunes:summary>Long time Batman aficionado Cyrus "The Virus" Bilimoria joins us for another one of our movie reviews. As always, our reviews are riddled with spoilers so if you haven't seen The Dark Knight Rises yet, start your download, go watch the movie, then listen to episode 48 and disagree with all of our thoughts in the comments below :)</itunes:summary>
+    </item>
+    <item>
+      <title>047 | Shinespark</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_047_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=047</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_047.m4a</guid>
+      <pubDate>Fri, 20 Jul 2012 00:00:00 -0700</pubDate>
+      <description>Special guest Travis Hayes joins us on his crappy microphone for a riveting discussion about video games. We go all over the board so even if you've never played a single minute of Metroid we're sure to touch on a game that interests you. That being said, if you have successfully achieved shinespark (which to me sounds like you had a wet dream about Samus) you will certainly enjoy this weeks episode through and through.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_047.m4a" length="34564357" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:56:30</itunes:duration>
+      <itunes:subtitle>Special guest Travis Hayes joins us on his crappy microphone for a riveting discussion about video games. We go all over the board so even if you've never played a single minute of Metroid we're sure to touch on a game that interests you. That being said, if you have successfully achieved shinespark (which to me sounds like you had a wet dream about Samus) you will certainly enjoy this weeks episode through and through.</itunes:subtitle>
+      <itunes:summary>Special guest Travis Hayes joins us on his crappy microphone for a riveting discussion about video games. We go all over the board so even if you've never played a single minute of Metroid we're sure to touch on a game that interests you. That being said, if you have successfully achieved shinespark (which to me sounds like you had a wet dream about Samus) you will certainly enjoy this weeks episode through and through.</itunes:summary>
+    </item>
+    <item>
+      <title>046 | Tiny Wings</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_046_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=046</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_046.m4a</guid>
+      <pubDate>Fri, 13 Jul 2012 00:00:00 -0700</pubDate>
+      <description>I started writing the summary for this episode but I couldn't think of anything so I started playing Tiny Wings. Haven't heard of it? It's the seventh best selling app on the store, and a personal favorite of the No Format podcast, and Andreas Illiger just updated it to Version 2.0 adding an extra mode of play "flight school". Anyway, this episode also contains various other topics but why don't you buy Tiny Wings, download this podcast, and nestle into your favorite chair. We'll be your background music.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_046.m4a" length="28568283" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:46:41</itunes:duration>
+      <itunes:subtitle>I started writing the summary for this episode but I couldn't think of anything so I started playing Tiny Wings. Haven't heard of it? It's the seventh best selling app on the store, and a personal favorite of the No Format podcast, and Andreas Illiger just updated it to Version 2.0 adding an extra mode of play "flight school". Anyway, this episode also contains various other topics but why don't you buy Tiny Wings, download this podcast, and nestle into your favorite chair. We'll be your background music.</itunes:subtitle>
+      <itunes:summary>I started writing the summary for this episode but I couldn't think of anything so I started playing Tiny Wings. Haven't heard of it? It's the seventh best selling app on the store, and a personal favorite of the No Format podcast, and Andreas Illiger just updated it to Version 2.0 adding an extra mode of play "flight school". Anyway, this episode also contains various other topics but why don't you buy Tiny Wings, download this podcast, and nestle into your favorite chair. We'll be your background music.</itunes:summary>
+    </item>
+    <item>
+      <title>045 | Luxury Periphs</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_045_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=045</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_045.m4a</guid>
+      <pubDate>Fri, 06 Jul 2012 00:00:00 -0700</pubDate>
+      <description>If you've ever experienced the confusion of setting up your own minecraft server, this episode is for you. If you've ever treated a new peripheral to a photoshoot, this episode may also be for you. If you enjoy peeping on your neighbors, this episode is definitely for you. If you enjoy doing anything special for the 4th of July, this episode is not for you.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_045.m4a" length="19531186" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:31:53</itunes:duration>
+      <itunes:subtitle>If you've ever experienced the confusion of setting up your own minecraft server, this episode is for you. If you've ever treated a new peripheral to a photoshoot, this episode may also be for you. If you enjoy peeping on your neighbors, this episode is definitely for you. If you enjoy doing anything special for the 4th of July, this episode is not for you.</itunes:subtitle>
+      <itunes:summary>If you've ever experienced the confusion of setting up your own minecraft server, this episode is for you. If you've ever treated a new peripheral to a photoshoot, this episode may also be for you. If you enjoy peeping on your neighbors, this episode is definitely for you. If you enjoy doing anything special for the 4th of July, this episode is not for you.</itunes:summary>
+    </item>
+    <item>
+      <title>044 | Boring Vacation Slideshows</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_044_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=044</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_044.m4a</guid>
+      <pubDate>Fri, 29 Jun 2012 00:00:00 -0700</pubDate>
+      <description>Here at No Format we understand how exciting it is to hear your friends boast about how much fun they had on their summer vacation. That's why in episode 44 we dedicate the better part of an hour to showing you photos from our recent camping adventures. This is an enhanced podcast my friends. Listen for the audible queues that there is an image on your podcast playing device. Don't forget to leave us comments below!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_044.m4a" length="48902726" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:53:48</itunes:duration>
+      <itunes:subtitle>Here at No Format we understand how exciting it is to hear your friends boast about how much fun they had on their summer vacation. That's why in episode 44 we dedicate the better part of an hour to showing you photos from our recent camping adventures. This is an enhanced podcast my friends. Listen for the audible queues that there is an image on your podcast playing device. Don't forget to leave us comments below!</itunes:subtitle>
+      <itunes:summary>Here at No Format we understand how exciting it is to hear your friends boast about how much fun they had on their summer vacation. That's why in episode 44 we dedicate the better part of an hour to showing you photos from our recent camping adventures. This is an enhanced podcast my friends. Listen for the audible queues that there is an image on your podcast playing device. Don't forget to leave us comments below!</itunes:summary>
+    </item>
+    <item>
+      <title>043 | We've Moved!</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_043_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=043</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_043.m4a</guid>
+      <pubDate>Fri, 22 Jun 2012 00:00:00 -0700</pubDate>
+      <description>feeds.feedburner.com/noformatpodcast is our new feed URL! Go to www.noformatpodcast.com for more information and to check out the new shnazzy website. You shouldn&apos;t have to do anything (and in fact you may never see this episode) if you subscribe to No Format in iTunes. But just in case, we&apos;ve left you this kind note to look us up again :)</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_043.m4a" length="860469" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:01:20</itunes:duration>
+      <itunes:subtitle>feeds.feedburner.com/noformatpodcast is our new feed URL! Go to www.noformatpodcast.com for more information and to check out the new shnazzy website. You shouldn&apos;t have to do anything (and in fact you may never see this episode) if you subscribe to No Format in iTunes. But just in case, we&apos;ve left you this kind note to look us up again :)</itunes:subtitle>
+      <itunes:summary>feeds.feedburner.com/noformatpodcast is our new feed URL! Go to www.noformatpodcast.com for more information and to check out the new shnazzy website. You shouldn&apos;t have to do anything (and in fact you may never see this episode) if you subscribe to No Format in iTunes. But just in case, we&apos;ve left you this kind note to look us up again :)</itunes:summary>
+    </item>
+    <item>
+      <title>042 | Prometheus</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_042_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=042</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_042.m4a</guid>
+      <pubDate>Fri, 15 Jun 2012 00:00:00 -0700</pubDate>
+      <description>Warning! If you have not seen the newly released movie Prometheus, DO NOT LISTEN TO THIS EPISODE! We go to town on the spoilers holding NOTHING back. That being said, if you have seen Prometheus, you are in for a heated disscussion between none other than the self proclaimed movie buff himself (Josh), the renowned water critic Jason, and the No Format record holding "most guest appearences" Gene Lee. Strap in, cause you're in for a ride to another planet. Or moon thereof.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_042.m4a" length="418630787" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:08:27</itunes:duration>
+      <itunes:subtitle>Warning! If you have not seen the newly released movie Prometheus, DO NOT LISTEN TO THIS EPISODE! We go to town on the spoilers holding NOTHING back. That being said, if you have seen Prometheus, you are in for a heated disscussion between none other than the self proclaimed movie buff himself (Josh), the renowned water critic Jason, and the No Format record holding "most guest appearences" Gene Lee. Strap in, cause you're in for a ride to another planet. Or moon thereof.</itunes:subtitle>
+      <itunes:summary>Warning! If you have not seen the newly released movie Prometheus, DO NOT LISTEN TO THIS EPISODE! We go to town on the spoilers holding NOTHING back. That being said, if you have seen Prometheus, you are in for a heated disscussion between none other than the self proclaimed movie buff himself (Josh), the renowned water critic Jason, and the No Format record holding "most guest appearences" Gene Lee. Strap in, cause you're in for a ride to another planet. Or moon thereof.</itunes:summary>
+    </item>
+    <item>
+      <title>041 | Acqua Panna</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_041_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=041</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_041.m4a</guid>
+      <pubDate>Sat, 09 Jun 2012 00:00:00 -0700</pubDate>
+      <description>Jason talks water. Joshua talks Transit of Venus. And I don&apos;t feel like writing any more description because I&apos;m posting this at like 2:30am.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_041.m4a" length="30170476" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:18</itunes:duration>
+      <itunes:subtitle>Jason talks water. Joshua talks Transit of Venus. And I don&apos;t feel like writing any more description because I&apos;m posting this at like 2:30am.</itunes:subtitle>
+      <itunes:summary>Jason talks water. Joshua talks Transit of Venus. And I don&apos;t feel like writing any more description because I&apos;m posting this at like 2:30am.</itunes:summary>
+    </item>
+    <item>
+      <title>040 | Toothbrush</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_040_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=040</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_040.m4a</guid>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 -0700</pubDate>
+      <description>You may be extremely bored during this episode. Then again, it&apos;s no different than any other episode we&apos;ve done. So if you&apos;ve invested in us this far, you may as well keep going.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_040.m4a" length="29326123" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:47:55</itunes:duration>
+      <itunes:subtitle>You may be extremely bored during this episode. Then again, it&apos;s no different than any other episode we&apos;ve done. So if you&apos;ve invested in us this far, you may as well keep going.</itunes:subtitle>
+      <itunes:summary>You may be extremely bored during this episode. Then again, it&apos;s no different than any other episode we&apos;ve done. So if you&apos;ve invested in us this far, you may as well keep going.</itunes:summary>
+    </item>
+    <item>
+      <title>039 | Artheology</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_039_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=039</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_039.m4a</guid>
+      <pubDate>Fri, 25 May 2012 00:00:00 -0700</pubDate>
+      <description>App. Space. Math. Book. God.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_039.m4a" length="39395259" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:04:24</itunes:duration>
+      <itunes:subtitle>App. Space. Math. Book. God.</itunes:subtitle>
+      <itunes:summary>App. Space. Math. Book. God.</itunes:summary>
+    </item>
+    <item>
+      <title>038 | Avengers Roundtable</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_038_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=038</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_038.m4a</guid>
+      <pubDate>Fri, 18 May 2012 00:00:00 -0700</pubDate>
+      <description>Gene is back from Korea and joins us once again, this time for a roundtable discussion of important stuff. So you should probably listen to it. Cause it&apos;s important. Oh, and if you haven&apos;t seen The Avengers yet, I suggest you put this episode on hold. Unless you have no interest in The Avengers. But then you might not want to listen to this episode anyway.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_038.m4a" length="26475124" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:43:15</itunes:duration>
+      <itunes:subtitle>Gene is back from Korea and joins us once again, this time for a roundtable discussion of important stuff. So you should probably listen to it. Cause it&apos;s important. Oh, and if you haven&apos;t seen The Avengers yet, I suggest you put this episode on hold. Unless you have no interest in The Avengers. But then you might not want to listen to this episode anyway.</itunes:subtitle>
+      <itunes:summary>Gene is back from Korea and joins us once again, this time for a roundtable discussion of important stuff. So you should probably listen to it. Cause it&apos;s important. Oh, and if you haven&apos;t seen The Avengers yet, I suggest you put this episode on hold. Unless you have no interest in The Avengers. But then you might not want to listen to this episode anyway.</itunes:summary>
+    </item>
+    <item>
+      <title>037 | Movie Buff</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_037_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=037</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_037.m4a</guid>
+      <pubDate>Wed, 09 May 2012 00:00:00 -0700</pubDate>
+      <description>Movies!!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_037.m4a" length="44321445" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:12:28</itunes:duration>
+      <itunes:subtitle>Movies!!</itunes:subtitle>
+      <itunes:summary>Movies!!</itunes:summary>
+    </item>
+    <item>
+      <title>036 | Duck Duck Go</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_036_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=036</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_036.m4a</guid>
+      <pubDate>Fri, 04 May 2012 00:00:00 -0700</pubDate>
+      <description>This episode is not for the feint of heart. Do not listen to this episode alone or even in the dark. It is my recommendation that, if you plan on listening to this episode, you keep a guard dog by your side at all times. You are warned.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_036.m4a" length="35754986" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:58:27</itunes:duration>
+      <itunes:subtitle>This episode is not for the feint of heart. Do not listen to this episode alone or even in the dark. It is my recommendation that, if you plan on listening to this episode, you keep a guard dog by your side at all times. You are warned.</itunes:subtitle>
+      <itunes:summary>This episode is not for the feint of heart. Do not listen to this episode alone or even in the dark. It is my recommendation that, if you plan on listening to this episode, you keep a guard dog by your side at all times. You are warned.</itunes:summary>
+    </item>
+    <item>
+      <title>035 | Damn it Feels Good to be a Gangsta</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_035_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=035</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_035.m4a</guid>
+      <pubDate>Sun, 29 Apr 2012 00:00:00 -0700</pubDate>
+      <description>Andrew Eller and Tim Karabian join us this week to do nothing more than shoot the breeze. Topics include Speed Runs, Whether or not Josh is a move buff, gadgets and much much more. PS I&apos;m a movie buff.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_035.m4a" length="39987546" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:21:21</itunes:duration>
+      <itunes:subtitle>Andrew Eller and Tim Karabian join us this week to do nothing more than shoot the breeze. Topics include Speed Runs, Whether or not Josh is a move buff, gadgets and much much more. PS I&apos;m a movie buff.</itunes:subtitle>
+      <itunes:summary>Andrew Eller and Tim Karabian join us this week to do nothing more than shoot the breeze. Topics include Speed Runs, Whether or not Josh is a move buff, gadgets and much much more. PS I&apos;m a movie buff.</itunes:summary>
+    </item>
+    <item>
+      <title>034 | Vegas</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_034_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=034</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_034.m4a</guid>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 -0700</pubDate>
+      <description>One of us was traveling, the other was just lazy but we came through with this episode after all was said and done. Hope you enjoy!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_034.m4a" length="38936043" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:03:58</itunes:duration>
+      <itunes:subtitle>One of us was traveling, the other was just lazy but we came through with this episode after all was said and done. Hope you enjoy!</itunes:subtitle>
+      <itunes:summary>One of us was traveling, the other was just lazy but we came through with this episode after all was said and done. Hope you enjoy!</itunes:summary>
+    </item>
+    <item>
+      <title>033 | Star Wars</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_033_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=033</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_033.m4a</guid>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 -0700</pubDate>
+      <description>Something I forgot to mention in this week&apos;s episode: This might be old news, but if you haven&apos;t yet, check out this guys treatise on the order in which you should watch Star Wars (the old and the new). It&apos;s super long but I read almost the whole thing cause it&apos;s interesting. Not that the guy has any authority on the subject. Just some guys thoughts. Anyway here it is.  http://static.nomachetejuggling.com/machete_order.html</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_033.m4a" length="38936043" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:49</itunes:duration>
+      <itunes:subtitle>Something I forgot to mention in this week&apos;s episode: This might be old news, but if you haven&apos;t yet, check out this guys treatise on the order in which you should watch Star Wars (the old and the new). It&apos;s super long but I read almost the whole thing cause it&apos;s interesting. Not that the guy has any authority on the subject. Just some guys thoughts. Anyway here it is.  http://static.nomachetejuggling.com/machete_order.html</itunes:subtitle>
+      <itunes:summary>Something I forgot to mention in this week&apos;s episode: This might be old news, but if you haven&apos;t yet, check out this guys treatise on the order in which you should watch Star Wars (the old and the new). It&apos;s super long but I read almost the whole thing cause it&apos;s interesting. Not that the guy has any authority on the subject. Just some guys thoughts. Anyway here it is.  http://static.nomachetejuggling.com/machete_order.html</itunes:summary>
+    </item>
+    <item>
+      <title>032 | Taxman</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_032_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=032</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_032.m4a</guid>
+      <pubDate>Fri, 06 Apr 2012 00:00:00 -0700</pubDate>
+      <description>Jason, myself and friends finally went golfing 6 episodes later. We cringe at the imminent tax deadline and we shoot the s**t in general.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_032.m4a" length="30333367" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:34:51</itunes:duration>
+      <itunes:subtitle>Jason, myself and friends finally went golfing 6 episodes later. We cringe at the imminent tax deadline and we shoot the s**t in general.</itunes:subtitle>
+      <itunes:summary>Jason, myself and friends finally went golfing 6 episodes later. We cringe at the imminent tax deadline and we shoot the s**t in general.</itunes:summary>
+    </item>
+    <item>
+      <title>031 | Colonization</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_031_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=031</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_031.m4a</guid>
+      <pubDate>Fri, 30 Mar 2012 00:00:00 -0700</pubDate>
+      <description>Do you think you have what it takes to make the cut? Would your skill set be of use on another planet? Find out in this installment of No Format where we discuss yet another topic regarding something about which we know nothing. Do not listen to this episode if you are at all skittish about bees or other flying insects. I&apos;m just sayin&apos;.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_031.m4a" length="42846483" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:10:24</itunes:duration>
+      <itunes:subtitle>Do you think you have what it takes to make the cut? Would your skill set be of use on another planet? Find out in this installment of No Format where we discuss yet another topic regarding something about which we know nothing. Do not listen to this episode if you are at all skittish about bees or other flying insects. I&apos;m just sayin&apos;.</itunes:subtitle>
+      <itunes:summary>Do you think you have what it takes to make the cut? Would your skill set be of use on another planet? Find out in this installment of No Format where we discuss yet another topic regarding something about which we know nothing. Do not listen to this episode if you are at all skittish about bees or other flying insects. I&apos;m just sayin&apos;.</itunes:summary>
+    </item>
+    <item>
+      <title>030 | Papyrus.ttf</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_030_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=030</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_030.m4a</guid>
+      <pubDate>Sat, 24 Mar 2012 00:00:00 -0700</pubDate>
+      <description>Whatever you may hear in the intro, this episode is indeed our thirtieth. Somehow Jason and I are always oblivious to the number of episodes we have recorded and this time is no exception. Listen to this episode if you currently wear a mustache and possess a burning hatred toward papyrus font. We don&apos;t talk about the former but I figure if you got a mustache you&apos;re bad ass enough to like our show.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_030.m4a" length="24424559" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:40:06</itunes:duration>
+      <itunes:subtitle>Whatever you may hear in the intro, this episode is indeed our thirtieth. Somehow Jason and I are always oblivious to the number of episodes we have recorded and this time is no exception. Listen to this episode if you currently wear a mustache and possess a burning hatred toward papyrus font. We don&apos;t talk about the former but I figure if you got a mustache you&apos;re bad ass enough to like our show.</itunes:subtitle>
+      <itunes:summary>Whatever you may hear in the intro, this episode is indeed our thirtieth. Somehow Jason and I are always oblivious to the number of episodes we have recorded and this time is no exception. Listen to this episode if you currently wear a mustache and possess a burning hatred toward papyrus font. We don&apos;t talk about the former but I figure if you got a mustache you&apos;re bad ass enough to like our show.</itunes:summary>
+    </item>
+    <item>
+      <title>029 | The Lego Store</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_029_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=029</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_029.m4a</guid>
+      <pubDate>Sat, 17 Mar 2012 00:00:00 -0700</pubDate>
+      <description>After a one week sabbatical Jason and Josh are back with the podcast that happened after our cameras overheated and stopped recording. Who likes candy? Let us know.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_029.m4a" length="26315583" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:43:12</itunes:duration>
+      <itunes:subtitle>After a one week sabbatical Jason and Josh are back with the podcast that happened after our cameras overheated and stopped recording. Who likes candy? Let us know.</itunes:subtitle>
+      <itunes:summary>After a one week sabbatical Jason and Josh are back with the podcast that happened after our cameras overheated and stopped recording. Who likes candy? Let us know.</itunes:summary>
+    </item>
+    <item>
+      <title>028 | No Format Video</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_028_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=028</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_028.m4a</guid>
+      <pubDate>Fri, 16 Mar 2012 00:00:00 -0700</pubDate>
+      <description>As a gift from the No Format crew we present to you No Format Episode 28 in video. We&apos;re sorry we didn&apos;t call last week. Hopefully this makes it up ;)</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_028.m4v" length="136625774" type="video/x-m4v"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:11:10</itunes:duration>
+      <itunes:subtitle>As a gift from the No Format crew we present to you No Format Episode 28 in video. We&apos;re sorry we didn&apos;t call last week. Hopefully this makes it up ;)</itunes:subtitle>
+      <itunes:summary>As a gift from the No Format crew we present to you No Format Episode 28 in video. We&apos;re sorry we didn&apos;t call last week. Hopefully this makes it up ;)</itunes:summary>
+    </item>
+    <item>
+      <title>027 | Always Learning</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_027_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=027</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_027.m4a</guid>
+      <pubDate>Fri, 02 Mar 2012 00:00:00 -0800</pubDate>
+      <description>Robert Krakower talks about his upcoming movie, Always Learning, which premiers March 9th at 9:30PM at the San Jose Repertory Theater.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_027.m4a" length="25986471" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:42:40</itunes:duration>
+      <itunes:subtitle>Robert Krakower talks about his upcoming movie, Always Learning, which premiers March 9th at 9:30PM at the San Jose Repertory Theater.</itunes:subtitle>
+      <itunes:summary>Robert Krakower talks about his upcoming movie, Always Learning, which premiers March 9th at 9:30PM at the San Jose Repertory Theater.</itunes:summary>
+    </item>
+    <item>
+      <title>026 | Golf Swing</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_026_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=026</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_026.m4a</guid>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 -0800</pubDate>
+      <description>Ryan DeOcampo joins us for a discussion on the future and golf, but not the future of golf. Just the future in general.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_026.m4a" length="31369991" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:51:31</itunes:duration>
+      <itunes:subtitle>Ryan DeOcampo joins us for a discussion on the future and golf, but not the future of golf. Just the future in general.</itunes:subtitle>
+      <itunes:summary>Ryan DeOcampo joins us for a discussion on the future and golf, but not the future of golf. Just the future in general.</itunes:summary>
+    </item>
+    <item>
+      <title>025 | Episode 25</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_025_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=025</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_025.m4a</guid>
+      <pubDate>Sat, 18 Feb 2012 00:00:00 -0800</pubDate>
+      <description>Another live stream for ya guys! This episode literally has no direction therefore it gets no title. Sorry for the late post, but to make up for it, we&apos;ve made this an enhanced podcast! Hope you enjoy the pictures : )</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_025.m4a" length="32796424" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:31:14</itunes:duration>
+      <itunes:subtitle>Another live stream for ya guys! This episode literally has no direction therefore it gets no title. Sorry for the late post, but to make up for it, we&apos;ve made this an enhanced podcast! Hope you enjoy the pictures : )</itunes:subtitle>
+      <itunes:summary>Another live stream for ya guys! This episode literally has no direction therefore it gets no title. Sorry for the late post, but to make up for it, we&apos;ve made this an enhanced podcast! Hope you enjoy the pictures : )</itunes:summary>
+    </item>
+    <item>
+      <title>024 | No Format LIVE</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_024_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=024</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_024.m4a</guid>
+      <pubDate>Sat, 11 Feb 2012 00:00:00 -0800</pubDate>
+      <description>This week we go live on Ustream! If you missed it, and I&apos;m sure you did as we announced it the day we broadcast it, you can catch up on all the mayhem here. Enjoy! And don&apos;t forget to post you wallet on facebook.com/noformatpodcast</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_024.m4a" length="27633011" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:45:23</itunes:duration>
+      <itunes:subtitle>This week we go live on Ustream! If you missed it, and I&apos;m sure you did as we announced it the day we broadcast it, you can catch up on all the mayhem here. Enjoy! And don&apos;t forget to post you wallet on facebook.com/noformatpodcast</itunes:subtitle>
+      <itunes:summary>This week we go live on Ustream! If you missed it, and I&apos;m sure you did as we announced it the day we broadcast it, you can catch up on all the mayhem here. Enjoy! And don&apos;t forget to post you wallet on facebook.com/noformatpodcast</itunes:summary>
+    </item>
+    <item>
+      <title>023 | Play Count</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_023_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=023</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_023.m4a</guid>
+      <pubDate>Fri, 03 Feb 2012 00:00:00 -0800</pubDate>
+      <description>I hope you like heavy metal. And low bit depth music. That&apos;s all I have to say.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_023.m4a" length="37552791" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:01:42</itunes:duration>
+      <itunes:subtitle>I hope you like heavy metal. And low bit depth music. That&apos;s all I have to say.</itunes:subtitle>
+      <itunes:summary>I hope you like heavy metal. And low bit depth music. That&apos;s all I have to say.</itunes:summary>
+    </item>
+    <item>
+      <title>022 | Puzzle</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_022_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=022</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_022.m4a</guid>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 -0800</pubDate>
+      <description>We talk...lots of stuff. No topic in particular.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_022.m4a" length="28185195" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:46:14</itunes:duration>
+      <itunes:subtitle>We talk...lots of stuff. No topic in particular.</itunes:subtitle>
+      <itunes:summary>We talk...lots of stuff. No topic in particular.</itunes:summary>
+    </item>
+    <item>
+      <title>021 | Worst Episode Ever</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_021_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=021</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_021.m4a</guid>
+      <pubDate>Fri, 20 Jan 2012 00:00:00 -0800</pubDate>
+      <description>We talk about cameras...and stuff...</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_021.m4a" length="26596707" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:43:40</itunes:duration>
+      <itunes:subtitle>We talk about cameras...and stuff...</itunes:subtitle>
+      <itunes:summary>We talk about cameras...and stuff...</itunes:summary>
+    </item>
+    <item>
+      <title>020 | Video Game Quality Assurance</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_020_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=020</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_020.m4a</guid>
+      <pubDate>Sat, 14 Jan 2012 00:00:00 -0800</pubDate>
+      <description>Ever wondered what it would be like to play video games all day and get paid for it? The Aizawa Bros are here, Jared and Joe, to give us the skinny on what being a video game tester is all about. Usually I have some witty comment to say after I introduce the topic of this weeks episode, but I&apos;ll be honest, nothing is coming to mind. Except that this may well be No Format&apos;s best episode yet! So listen up! And get schooled by the Aizawa Duo!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_020.m4a" length="29853151" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:02</itunes:duration>
+      <itunes:subtitle>Ever wondered what it would be like to play video games all day and get paid for it? The Aizawa Bros are here, Jared and Joe, to give us the skinny on what being a video game tester is all about. Usually I have some witty comment to say after I introduce the topic of this weeks episode, but I&apos;ll be honest, nothing is coming to mind. Except that this may well be No Format&apos;s best episode yet! So listen up! And get schooled by the Aizawa Duo!</itunes:subtitle>
+      <itunes:summary>Ever wondered what it would be like to play video games all day and get paid for it? The Aizawa Bros are here, Jared and Joe, to give us the skinny on what being a video game tester is all about. Usually I have some witty comment to say after I introduce the topic of this weeks episode, but I&apos;ll be honest, nothing is coming to mind. Except that this may well be No Format&apos;s best episode yet! So listen up! And get schooled by the Aizawa Duo!</itunes:summary>
+    </item>
+    <item>
+      <title>019 | Another Earth</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_019_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=019</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_019.m4a</guid>
+      <pubDate>Sat, 07 Jan 2012 00:00:00 -0800</pubDate>
+      <description>What? You didn&apos;t listen to Episode 18?! Well then you may not have heard we were going to do a movie review of Another Earth. You still have time to rent it, but don&apos;t worry, if you haven&apos;t seen it we won&apos;t give anything away. You should definitely watch it though because it may or may not be an excellent movie that you may or may not cherish for the rest of your life and afterwards you may or may not thank me for the possibly terrific cinematic experience it offers.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_019.m4a" length="30248411" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:41</itunes:duration>
+      <itunes:subtitle>What? You didn&apos;t listen to Episode 18?! Well then you may not have heard we were going to do a movie review of Another Earth. You still have time to rent it, but don&apos;t worry, if you haven&apos;t seen it we won&apos;t give anything away. You should definitely watch it though because it may or may not be an excellent movie that you may or may not cherish for the rest of your life and afterwards you may or may not thank me for the possibly terrific cinematic experience it offers.</itunes:subtitle>
+      <itunes:summary>What? You didn&apos;t listen to Episode 18?! Well then you may not have heard we were going to do a movie review of Another Earth. You still have time to rent it, but don&apos;t worry, if you haven&apos;t seen it we won&apos;t give anything away. You should definitely watch it though because it may or may not be an excellent movie that you may or may not cherish for the rest of your life and afterwards you may or may not thank me for the possibly terrific cinematic experience it offers.</itunes:summary>
+    </item>
+    <item>
+      <title>018 | No Title</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_018_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=018</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_018.m4a</guid>
+      <pubDate>Fri, 30 Dec 2011 00:00:00 -0800</pubDate>
+      <description>No description.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_018.m4a" length="30926743" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:50:48</itunes:duration>
+      <itunes:subtitle>No description.</itunes:subtitle>
+      <itunes:summary>No description.</itunes:summary>
+    </item>
+    <item>
+      <title>017 | Scotch &amp; Cigars</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_017_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=017</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_017.m4a</guid>
+      <pubDate>Fri, 23 Dec 2011 00:00:00 -0800</pubDate>
+      <description>A scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent. This podcast, however, is none of these. Joel Paulsen joins us this week as we reminisce about boy scouts and have a man-versation about scotch and cigars. And if you've never met Joel, you should know, the man knows his scotch and cigars like a fox knows its hole.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_017.m4a" length="28387687" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:46:23</itunes:duration>
+      <itunes:subtitle>A scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent. This podcast, however, is none of these. Joel Paulsen joins us this week as we reminisce about boy scouts and have a man-versation about scotch and cigars. And if you've never met Joel, you should know, the man knows his scotch and cigars like a fox knows its hole.</itunes:subtitle>
+      <itunes:summary>A scout is trustworthy, loyal, helpful, friendly, courteous, kind, obedient, cheerful, thrifty, brave, clean, and reverent. This podcast, however, is none of these. Joel Paulsen joins us this week as we reminisce about boy scouts and have a man-versation about scotch and cigars. And if you've never met Joel, you should know, the man knows his scotch and cigars like a fox knows its hole.</itunes:summary>
+    </item>
+    <item>
+      <title>016 | Game Show!</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_016_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=016</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_016.m4a</guid>
+      <pubDate>Sat, 17 Dec 2011 00:00:00 -0800</pubDate>
+      <description>Ever visited j-archive.com? If you haven&apos;t you should, but not before you listen to this week&apos;s episode of No Format! We invite 13 of our lucky listeners to take part in a bout of knowledge relating to no particular topic. Feel free to play along by yelling in your loudest voice directly into your iPhone. Hey, if this episode goes well, next time around we might ask YOU to be a contestant!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_016.m4a" length="24909635" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:40:54</itunes:duration>
+      <itunes:subtitle>Ever visited j-archive.com? If you haven&apos;t you should, but not before you listen to this week&apos;s episode of No Format! We invite 13 of our lucky listeners to take part in a bout of knowledge relating to no particular topic. Feel free to play along by yelling in your loudest voice directly into your iPhone. Hey, if this episode goes well, next time around we might ask YOU to be a contestant!</itunes:subtitle>
+      <itunes:summary>Ever visited j-archive.com? If you haven&apos;t you should, but not before you listen to this week&apos;s episode of No Format! We invite 13 of our lucky listeners to take part in a bout of knowledge relating to no particular topic. Feel free to play along by yelling in your loudest voice directly into your iPhone. Hey, if this episode goes well, next time around we might ask YOU to be a contestant!</itunes:summary>
+    </item>
+    <item>
+      <title>015 | FeedBurner Fail</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_015_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=015</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_015.m4a</guid>
+      <pubDate>Thu, 08 Dec 2011 00:00:00 -0800</pubDate>
+      <description>This episode of the No Format podcast does not cover the topic of family puppy dogs being put to sleep. After long thought and consideration, I Joshua, the editor of said podcast thought it best to protect you the listener from such topics. You can thank me in the comments. What is featured in this episode is a sad story of a different sort. The sort of story concerning a failure to understand how FeedBurner works. This episode is all business, so put your business socks on and take notes cause we ain&apos;t payin&apos; you fer nuthin&apos;!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_015.m4a" length="26249759" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:43:06</itunes:duration>
+      <itunes:subtitle>This episode of the No Format podcast does not cover the topic of family puppy dogs being put to sleep. After long thought and consideration, I Joshua, the editor of said podcast thought it best to protect you the listener from such topics. You can thank me in the comments. What is featured in this episode is a sad story of a different sort. The sort of story concerning a failure to understand how FeedBurner works. This episode is all business, so put your business socks on and take notes cause we ain&apos;t payin&apos; you fer nuthin&apos;!</itunes:subtitle>
+      <itunes:summary>This episode of the No Format podcast does not cover the topic of family puppy dogs being put to sleep. After long thought and consideration, I Joshua, the editor of said podcast thought it best to protect you the listener from such topics. You can thank me in the comments. What is featured in this episode is a sad story of a different sort. The sort of story concerning a failure to understand how FeedBurner works. This episode is all business, so put your business socks on and take notes cause we ain&apos;t payin&apos; you fer nuthin&apos;!</itunes:summary>
+    </item>
+    <item>
+      <title>014 | We've Got Seoul</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_014_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=014</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_014.m4a</guid>
+      <pubDate>Fri, 02 Dec 2011 00:00:00 -0800</pubDate>
+      <description>This time around No Format goes international! Gene Lee, former roommate of Jason and previous renter of the room which I called home, joins us all the way from Seoul, Korea to talk about things of no particular importance. Actually we talk about what&apos;s been on everyone&apos;s minds lately - the weather. Sit back and relax as we enchant your imagination with 54 minutes of cutting-edge weather coverage. The highs, the lows, even the mids. Precipitation reports, barometer readings and gossip of next months weather. It&apos;s scandalous!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_014.m4a" length="33399799" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:54:52</itunes:duration>
+      <itunes:subtitle>This time around No Format goes international! Gene Lee, former roommate of Jason and previous renter of the room which I called home, joins us all the way from Seoul, Korea to talk about things of no particular importance. Actually we talk about what&apos;s been on everyone&apos;s minds lately - the weather. Sit back and relax as we enchant your imagination with 54 minutes of cutting-edge weather coverage. The highs, the lows, even the mids. Precipitation reports, barometer readings and gossip of next months weather. It&apos;s scandalous!</itunes:subtitle>
+      <itunes:summary>This time around No Format goes international! Gene Lee, former roommate of Jason and previous renter of the room which I called home, joins us all the way from Seoul, Korea to talk about things of no particular importance. Actually we talk about what&apos;s been on everyone&apos;s minds lately - the weather. Sit back and relax as we enchant your imagination with 54 minutes of cutting-edge weather coverage. The highs, the lows, even the mids. Precipitation reports, barometer readings and gossip of next months weather. It&apos;s scandalous!</itunes:summary>
+    </item>
+    <item>
+      <title>013 | Ancient Egypt</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_013_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=013</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_013.m4a</guid>
+      <pubDate>Wed, 23 Nov 2011 00:00:00 -0800</pubDate>
+      <description>Get out the readin&apos; glasses and put your bow tie on cause this is an intellectual episode. Eric Bricmont, son of a bonifide Archeoastronomer, joins us in a riveting conversation about Egypt, from pyramid construction to mummy curses. If you&apos;ve ever lost yourself in an Egypt-related wikipedia article, give this episode a listen. You may find it sophisticatedly stimulating. And what&apos;s the deal with all the Ancient Alien shows on the History Channel. Really, History Channel, aliens?</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_013.m4a" length="33022492" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:56:13</itunes:duration>
+      <itunes:subtitle>Get out the readin&apos; glasses and put your bow tie on cause this is an intellectual episode. Eric Bricmont, son of a bonifide Archeoastronomer, joins us in a riveting conversation about Egypt, from pyramid construction to mummy curses. If you&apos;ve ever lost yourself in an Egypt-related wikipedia article, give this episode a listen. You may find it sophisticatedly stimulating. And what&apos;s the deal with all the Ancient Alien shows on the History Channel. Really, History Channel, aliens?</itunes:subtitle>
+      <itunes:summary>Get out the readin&apos; glasses and put your bow tie on cause this is an intellectual episode. Eric Bricmont, son of a bonifide Archeoastronomer, joins us in a riveting conversation about Egypt, from pyramid construction to mummy curses. If you&apos;ve ever lost yourself in an Egypt-related wikipedia article, give this episode a listen. You may find it sophisticatedly stimulating. And what&apos;s the deal with all the Ancient Alien shows on the History Channel. Really, History Channel, aliens?</itunes:summary>
+    </item>
+    <item>
+      <title>012 | As Seen On TV</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_012_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=012</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_012.m4a</guid>
+      <pubDate>Thu, 17 Nov 2011 00:00:00 -0800</pubDate>
+      <description>Have you ever taken great care when eating a bowl of Cap&apos;n Crunch w/ Crunch Berries to eat all the yellow things first so you can enjoy half a bowl of pure Crunch Berries? This podcast is nothing like that. It&apos;s more like taking 11 boxes of cereal from the cupboard and mixing them all together into one giant bowl of suicide cereal. Part nutritious, part sugar coated, part downright pointless.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_012.m4a" length="26442092" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:45:07</itunes:duration>
+      <itunes:subtitle>Have you ever taken great care when eating a bowl of Cap&apos;n Crunch w/ Crunch Berries to eat all the yellow things first so you can enjoy half a bowl of pure Crunch Berries? This podcast is nothing like that. It&apos;s more like taking 11 boxes of cereal from the cupboard and mixing them all together into one giant bowl of suicide cereal. Part nutritious, part sugar coated, part downright pointless.</itunes:subtitle>
+      <itunes:summary>Have you ever taken great care when eating a bowl of Cap&apos;n Crunch w/ Crunch Berries to eat all the yellow things first so you can enjoy half a bowl of pure Crunch Berries? This podcast is nothing like that. It&apos;s more like taking 11 boxes of cereal from the cupboard and mixing them all together into one giant bowl of suicide cereal. Part nutritious, part sugar coated, part downright pointless.</itunes:summary>
+    </item>
+    <item>
+      <title>011 | Nuclear Bomb</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_011_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=011</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_011.m4a</guid>
+      <pubDate>Fri, 11 Nov 2011 00:00:00 -0800</pubDate>
+      <description>That&apos;s right. We&apos;re talkin&apos; about bombs this episode. And not just any bombs, we&apos;re taking it straight to the top with the mother of all bombs. Who would have thought that while listening to your favorite podcast as you eat your Cheerios this morning that you would learn the delicate details of constructing your very own nuclear warhead? You didn&apos;t think this show was all about fun and games did you? Well I don&apos;t blame you because we kind of went off on a rant last episode about Zelda. Hey that&apos;s kind of a coincidence; last week we talked about the mother of all games, this week the mother of all bombs. Go figure.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_011.m4a" length="24746661" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:42:20</itunes:duration>
+      <itunes:subtitle>That&apos;s right. We&apos;re talkin&apos; about bombs this episode. And not just any bombs, we&apos;re taking it straight to the top with the mother of all bombs. Who would have thought that while listening to your favorite podcast as you eat your Cheerios this morning that you would learn the delicate details of constructing your very own nuclear warhead? You didn&apos;t think this show was all about fun and games did you? Well I don&apos;t blame you because we kind of went off on a rant last episode about Zelda. Hey that&apos;s kind of a coincidence; last week we talked about the mother of all games, this week the mother of all bombs. Go figure.</itunes:subtitle>
+      <itunes:summary>That&apos;s right. We&apos;re talkin&apos; about bombs this episode. And not just any bombs, we&apos;re taking it straight to the top with the mother of all bombs. Who would have thought that while listening to your favorite podcast as you eat your Cheerios this morning that you would learn the delicate details of constructing your very own nuclear warhead? You didn&apos;t think this show was all about fun and games did you? Well I don&apos;t blame you because we kind of went off on a rant last episode about Zelda. Hey that&apos;s kind of a coincidence; last week we talked about the mother of all games, this week the mother of all bombs. Go figure.</itunes:summary>
+    </item>
+    <item>
+      <title>010 | Zelda</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_010_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=010</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_010.m4a</guid>
+      <pubDate>Fri, 04 Nov 2011 00:00:00 -0700</pubDate>
+      <description>So this episode, being our 10th, is kind of a big deal to us. What better way to celebrate it by discussing the biggest game of console history. And I mean that. Google it. Right now. Type &quot;What is the best game ever?&quot; into the google search field and read the answer: The Legend of Zelda - Ocarina of Time. It is such a good game we decided to invite our close friend and official Zelda expert, Toni Hansen, to join us in praising the epicness that is this legendary N64 title. Sit back, put your hookshot down and give this episode a listen. If you&apos;ve never played Zelda OoT, may this podcast press upon you the importance of experiencing such a masterpiece of a game, and urge you to drop a Benjamin or so on a Wii and download it for the price of a single Hamilton. You will not regret it.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_010.m4a" length="35846897" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>01:02:24</itunes:duration>
+      <itunes:subtitle>So this episode, being our 10th, is kind of a big deal to us. What better way to celebrate it by discussing the biggest game of console history. And I mean that. Google it. Right now. Type &quot;What is the best game ever?&quot; into the google search field and read the answer: The Legend of Zelda - Ocarina of Time. It is such a good game we decided to invite our close friend and official Zelda expert, Toni Hansen, to join us in praising the epicness that is this legendary N64 title. Sit back, put your hookshot down and give this episode a listen. If you&apos;ve never played Zelda OoT, may this podcast press upon you the importance of experiencing such a masterpiece of a game, and urge you to drop a Benjamin or so on a Wii and download it for the price of a single Hamilton. You will not regret it.</itunes:subtitle>
+      <itunes:summary>So this episode, being our 10th, is kind of a big deal to us. What better way to celebrate it by discussing the biggest game of console history. And I mean that. Google it. Right now. Type &quot;What is the best game ever?&quot; into the google search field and read the answer: The Legend of Zelda - Ocarina of Time. It is such a good game we decided to invite our close friend and official Zelda expert, Toni Hansen, to join us in praising the epicness that is this legendary N64 title. Sit back, put your hookshot down and give this episode a listen. If you&apos;ve never played Zelda OoT, may this podcast press upon you the importance of experiencing such a masterpiece of a game, and urge you to drop a Benjamin or so on a Wii and download it for the price of a single Hamilton. You will not regret it.</itunes:summary>
+    </item>
+    <item>
+      <title>009 | Dinosaur</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_009_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=009</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_009.m4a</guid>
+      <pubDate>Thu, 27 Oct 2011 00:00:00 -0700</pubDate>
+      <description>Wow. Have we got an episode for you! Denise Soden is back to school us on the topic of DINOSAURS!!! To add a little to the conversation, we watched the greatest dino-flick ever made: Jurassic Park (1993). So hold on to ya butts, this episode is both educational and entertaining.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_009.m4a" length="32135569" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:52:47</itunes:duration>
+      <itunes:subtitle>Wow. Have we got an episode for you! Denise Soden is back to school us on the topic of DINOSAURS!!! To add a little to the conversation, we watched the greatest dino-flick ever made: Jurassic Park (1993). So hold on to ya butts, this episode is both educational and entertaining.</itunes:subtitle>
+      <itunes:summary>Wow. Have we got an episode for you! Denise Soden is back to school us on the topic of DINOSAURS!!! To add a little to the conversation, we watched the greatest dino-flick ever made: Jurassic Park (1993). So hold on to ya butts, this episode is both educational and entertaining.</itunes:summary>
+    </item>
+    <item>
+      <title>008 | Star Trek</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_008_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=008</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_008.m4a</guid>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 -0700</pubDate>
+      <description>We&apos;re back on track with a very special episode of No Format! This time we invite our friend Jeremy Commandeur on the show so he can school us in some Trek facts. Sorry, we didn&apos;t announce what we were going to watch during the last episode (we forgot to do a lot of things in the last episode...) but if you&apos;d like, you could prepare yourself by watching The Best of Both Worlds, Parts 1 &amp; 2, Star Trek, The Next Generation. Leave your popped collar and chinos at home cause we nerd out pretty bad in this one. Also, remember the gravity question we asked in Episode 6? We got an answer. And you won&apos;t believe it, we made it through this episode with out having to bleep anything Jason says!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_008.m4a" length="29540895" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:51:17</itunes:duration>
+      <itunes:subtitle>We&apos;re back on track with a very special episode of No Format! This time we invite our friend Jeremy Commandeur on the show so he can school us in some Trek facts. Sorry, we didn&apos;t announce what we were going to watch during the last episode (we forgot to do a lot of things in the last episode...) but if you&apos;d like, you could prepare yourself by watching The Best of Both Worlds, Parts 1 &amp; 2, Star Trek, The Next Generation. Leave your popped collar and chinos at home cause we nerd out pretty bad in this one. Also, remember the gravity question we asked in Episode 6? We got an answer. And you won&apos;t believe it, we made it through this episode with out having to bleep anything Jason says!</itunes:subtitle>
+      <itunes:summary>We&apos;re back on track with a very special episode of No Format! This time we invite our friend Jeremy Commandeur on the show so he can school us in some Trek facts. Sorry, we didn&apos;t announce what we were going to watch during the last episode (we forgot to do a lot of things in the last episode...) but if you&apos;d like, you could prepare yourself by watching The Best of Both Worlds, Parts 1 &amp; 2, Star Trek, The Next Generation. Leave your popped collar and chinos at home cause we nerd out pretty bad in this one. Also, remember the gravity question we asked in Episode 6? We got an answer. And you won&apos;t believe it, we made it through this episode with out having to bleep anything Jason says!</itunes:summary>
+    </item>
+    <item>
+      <title>007 | Starcraft</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_007_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=007</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_007.m4a</guid>
+      <pubDate>Mon, 17 Oct 2011 00:00:00 -0700</pubDate>
+      <description>I&apos;m gonna tell you right now, this was a train wreck. A conceptually good idea, gone bad. Real bad. So bad I&apos;m not going to describe what happens. Hopefully this intrigues you to listen to it, but be warned, I told you it was bad. And it&apos;s not one of those,&quot;he&apos;s telling us it&apos;s bad, but in the end, it will be so bad it&apos;s funny&quot;, sort of things. It&apos;s just an all around bad episode. The one good thing we get around to talking about is the bestest fast food restaurant in the world. Hope you enjoy. And believe me, we&apos;ll be back on track next week.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_007.m4a" length="45704068" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:33:58</itunes:duration>
+      <itunes:subtitle>I&apos;m gonna tell you right now, this was a train wreck. A conceptually good idea, gone bad. Real bad. So bad I&apos;m not going to describe what happens. Hopefully this intrigues you to listen to it, but be warned, I told you it was bad. And it&apos;s not one of those,&quot;he&apos;s telling us it&apos;s bad, but in the end, it will be so bad it&apos;s funny&quot;, sort of things. It&apos;s just an all around bad episode. The one good thing we get around to talking about is the bestest fast food restaurant in the world. Hope you enjoy. And believe me, we&apos;ll be back on track next week.</itunes:subtitle>
+      <itunes:summary>I&apos;m gonna tell you right now, this was a train wreck. A conceptually good idea, gone bad. Real bad. So bad I&apos;m not going to describe what happens. Hopefully this intrigues you to listen to it, but be warned, I told you it was bad. And it&apos;s not one of those,&quot;he&apos;s telling us it&apos;s bad, but in the end, it will be so bad it&apos;s funny&quot;, sort of things. It&apos;s just an all around bad episode. The one good thing we get around to talking about is the bestest fast food restaurant in the world. Hope you enjoy. And believe me, we&apos;ll be back on track next week.</itunes:summary>
+    </item>
+    <item>
+      <title>006 | Godfather</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_006_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=006</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_006.m4a</guid>
+      <pubDate>Fri, 07 Oct 2011 00:00:00 -0700</pubDate>
+      <description>If you listened to us last week then hopefully you joined us in watching The Godfather, Part I. If you didn&apos;t listen to us last week, chances are, given you aren&apos;t Jason Hayes, you&apos;ve probably already seen it. Have a listen to this episode to hear our impressions of the classic mafia flick. We also contemplate a classic physics problem and enlist the help of a celebrity amongst space nerds.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_006.m4a" length="69307471" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:50:24</itunes:duration>
+      <itunes:subtitle>If you listened to us last week then hopefully you joined us in watching The Godfather, Part I. If you didn&apos;t listen to us last week, chances are, given you aren&apos;t Jason Hayes, you&apos;ve probably already seen it. Have a listen to this episode to hear our impressions of the classic mafia flick. We also contemplate a classic physics problem and enlist the help of a celebrity amongst space nerds.</itunes:subtitle>
+      <itunes:summary>If you listened to us last week then hopefully you joined us in watching The Godfather, Part I. If you didn&apos;t listen to us last week, chances are, given you aren&apos;t Jason Hayes, you&apos;ve probably already seen it. Have a listen to this episode to hear our impressions of the classic mafia flick. We also contemplate a classic physics problem and enlist the help of a celebrity amongst space nerds.</itunes:summary>
+    </item>
+    <item>
+      <title>005 | X-men</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_005_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=005</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_005.m4a</guid>
+      <pubDate>Fri, 30 Sep 2011 00:00:00 -0700</pubDate>
+      <description>Well, here we are, finally in the iTunes podcast directory. This week we discuss Jason&apos;s unreasonably large Ninja Turtle collection. Then, on a more serious note, we talk about building telescopes and the inherent flaws of spherical lenses. Go on, let your inner nerd out and enjoy this quality conversation in the comfort of your drivers seat.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_005.m4a" length="51488053" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:49:48</itunes:duration>
+      <itunes:subtitle>Well, here we are, finally in the iTunes podcast directory. This week we discuss Jason&apos;s unreasonably large Ninja Turtle collection. Then, on a more serious note, we talk about building telescopes and the inherent flaws of spherical lenses. Go on, let your inner nerd out and enjoy this quality conversation in the comfort of your drivers seat.</itunes:subtitle>
+      <itunes:summary>Well, here we are, finally in the iTunes podcast directory. This week we discuss Jason&apos;s unreasonably large Ninja Turtle collection. Then, on a more serious note, we talk about building telescopes and the inherent flaws of spherical lenses. Go on, let your inner nerd out and enjoy this quality conversation in the comfort of your drivers seat.</itunes:summary>
+    </item>
+    <item>
+      <title>004 | Mt Everest</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_004_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=004</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_004.m4a</guid>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 -0700</pubDate>
+      <description>Are you ready to learn about Wetenkamp family folklore, century old dead dudes, and free baby grand pianos? This week&apos;s episode discusses those topics and more. I really hope this is not your first episode of No Format, cause it&apos;s not our best. Hang in there and we&apos;ll be sure to entertain you next week as we continue to follow our motto of absolutely no ground rules. In fact, next week we will probably stake out a plot in the vast wasteland that is the iTunes directory, but for now try streaming Episode 4 right from the browser of your computer or, better yet, your mobile phone. If you don&apos;t want to depend on the airwaves, try control clicking (right clicking on a PC) the link below and download it.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_004.m4a" length="23546318" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:45:38</itunes:duration>
+      <itunes:subtitle>Are you ready to learn about Wetenkamp family folklore, century old dead dudes, and free baby grand pianos? This week&apos;s episode discusses those topics and more. I really hope this is not your first episode of No Format, cause it&apos;s not our best. Hang in there and we&apos;ll be sure to entertain you next week as we continue to follow our motto of absolutely no ground rules. In fact, next week we will probably stake out a plot in the vast wasteland that is the iTunes directory, but for now try streaming Episode 4 right from the browser of your computer or, better yet, your mobile phone. If you don&apos;t want to depend on the airwaves, try control clicking (right clicking on a PC) the link below and download it.</itunes:subtitle>
+      <itunes:summary>Are you ready to learn about Wetenkamp family folklore, century old dead dudes, and free baby grand pianos? This week&apos;s episode discusses those topics and more. I really hope this is not your first episode of No Format, cause it&apos;s not our best. Hang in there and we&apos;ll be sure to entertain you next week as we continue to follow our motto of absolutely no ground rules. In fact, next week we will probably stake out a plot in the vast wasteland that is the iTunes directory, but for now try streaming Episode 4 right from the browser of your computer or, better yet, your mobile phone. If you don&apos;t want to depend on the airwaves, try control clicking (right clicking on a PC) the link below and download it.</itunes:summary>
+    </item>
+    <item>
+      <title>003 | Lottery</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_003_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=003</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_003.m4a</guid>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 -0700</pubDate>
+      <description>If you thought last week&apos;s episode was boring, get ready for another doosey. This week Jason and Josh discuss things like the greatest video game ever made, how to have fun on the inter webs, and a certain monetary vice Jason picked up working at the grocery store. Feel free to tell us what you think about the podcast and how we should learn to plan ahead. Also, did you know you can click the link below and stream the podcast on your phone? Try it!</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_003.m4a" length="76569789" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:51:26</itunes:duration>
+      <itunes:subtitle>If you thought last week&apos;s episode was boring, get ready for another doosey. This week Jason and Josh discuss things like the greatest video game ever made, how to have fun on the inter webs, and a certain monetary vice Jason picked up working at the grocery store. Feel free to tell us what you think about the podcast and how we should learn to plan ahead. Also, did you know you can click the link below and stream the podcast on your phone? Try it!</itunes:subtitle>
+      <itunes:summary>If you thought last week&apos;s episode was boring, get ready for another doosey. This week Jason and Josh discuss things like the greatest video game ever made, how to have fun on the inter webs, and a certain monetary vice Jason picked up working at the grocery store. Feel free to tell us what you think about the podcast and how we should learn to plan ahead. Also, did you know you can click the link below and stream the podcast on your phone? Try it!</itunes:summary>
+    </item>
+    <item>
+      <title>002 | Wikipedia</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_002_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=002</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_002.m4a</guid>
+      <pubDate>Sun, 11 Sep 2011 00:00:00 -0700</pubDate>
+      <description>Listen to episode 2 of Josh and Jason&apos;s podcast, tentatively titled, &quot;No Format&quot;. It&apos;s about important stuff like endangered species and Jesus websites. So basically if you don&apos;t listen to it you hate animals, Jesus and the internet. But I think you&apos;ll find it to be a worthy background noise for your commute home assuming you don&apos;t have the new Chili Peppers album or any other slightly worthwhile album, podcast or jazz flute solo. Feel free to control click (or right click) the link below and download the mp3 file so you can listen to it on your i device.</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_002.m4a" length="25381569" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:44:42</itunes:duration>
+      <itunes:subtitle>Listen to episode 2 of Josh and Jason&apos;s podcast, tentatively titled, &quot;No Format&quot;. It&apos;s about important stuff like endangered species and Jesus websites. So basically if you don&apos;t listen to it you hate animals, Jesus and the internet. But I think you&apos;ll find it to be a worthy background noise for your commute home assuming you don&apos;t have the new Chili Peppers album or any other slightly worthwhile album, podcast or jazz flute solo. Feel free to control click (or right click) the link below and download the mp3 file so you can listen to it on your i device.</itunes:subtitle>
+      <itunes:summary>Listen to episode 2 of Josh and Jason&apos;s podcast, tentatively titled, &quot;No Format&quot;. It&apos;s about important stuff like endangered species and Jesus websites. So basically if you don&apos;t listen to it you hate animals, Jesus and the internet. But I think you&apos;ll find it to be a worthy background noise for your commute home assuming you don&apos;t have the new Chili Peppers album or any other slightly worthwhile album, podcast or jazz flute solo. Feel free to control click (or right click) the link below and download the mp3 file so you can listen to it on your i device.</itunes:summary>
+    </item>
+    <item>
+      <title>001 | Pilot (Don't Listen)</title>
+      <itunes:image href="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_artwork/ep_001_retina.jpg" WIDTH="1400" HEIGHT="1400" />
+      <link>http://www.distantfuturejosh.com/noformat/episode.php?post_ID=001</link>
+      <guid isPermaLink="false">http://www.distantfuturejosh.com/noformat/ep_media/ep_001.m4a</guid>
+      <pubDate>Wed, 07 Sep 2011 00:00:00 -0700</pubDate>
+      <description>Listen to our pilot at your own risk, but don&apos;t judge us by it ;)</description>
+      <enclosure url="https://s3-us-west-1.amazonaws.com/lazy-rama/noformat/ep_media/ep_001.m4a" length="45758907" type="audio/x-m4a"/>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:author>Josh Wetenkamp &amp; Jason Hayes</itunes:author>
+      <itunes:duration>00:45:20</itunes:duration>
+      <itunes:subtitle>Listen to our pilot at your own risk, but don&apos;t judge us by it ;)</itunes:subtitle>
+      <itunes:summary>Listen to our pilot at your own risk, but don&apos;t judge us by it ;)</itunes:summary>
+    </item>
+  </channel>
+</rss>

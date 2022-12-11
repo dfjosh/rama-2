@@ -1,0 +1,18 @@
+/* Layout */
+
+p {
+	font-size: 22px;
+}
+h3 {
+	font-size: 28px;
+}
+.left h3 {
+	margin-left: 50%;
+}
+article img {
+	width: 50%;
+}
+article.half {
+	width: 41%;
+	margin: 0% 0% 6% 6%;
+}

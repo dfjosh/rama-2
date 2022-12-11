@@ -1,0 +1,210 @@
+/* Reset */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none; /* Grrrrrrrrr!!! */
+}
+
+/* Layout */
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.73) 0%, rgba(43,43,43,0.73) 100%);
+	overflow: hidden;
+}
+header a {
+	box-sizing: border-box;
+	padding: 10px;
+	display: block;
+	width: inherit;
+	height: inherit;
+}
+#header_spacer {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#header_spacer a {
+	box-sizing: border-box;
+	margin: 10px;
+	display: block;
+	width: inherit;
+	height: inherit;
+	float: left;
+}
+section {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+img.half {
+	width: 41%;
+	margin: 6% 0% 6% 6%;
+	display: block;
+	float: left;
+}
+img.header {
+	width: 100%;
+	margin: 0% 0% 0% 0%;
+	display: block;
+	float: left;
+}
+article {
+	width: 88%;
+	margin-left:6%;
+	margin-right: 6%;
+	margin-top: 10px;
+	float: left;
+}
+article img {
+	width: 116%;
+	display: block;
+}
+.right img {
+	float: right;
+	margin: 0% -8% 8% 8%;
+}
+.left img {
+	float: left;
+	margin: 0% 8% 8% -8%;
+}
+footer {
+	width: 100%;
+	float: left;
+	margin-top: 31px; /* So that the footer lies perfectly at the bottom of iPad portrait */
+	background: -webkit-linear-gradient(rgba(0,0,0,0.73) 0%, rgba(43,43,43,0.73) 100%);
+	overflow: hidden;
+}
+footer p {
+	color: #ffffff;
+	padding: 10px 10px 0px 10px; /* No padding on bottom because all p already has 10px of padding */
+}
+
+/* Fonts and Links */
+
+h1 {
+	font-family: helvetica;
+	font-size: 30px;
+	color: #ffffff;
+}
+.thin {
+	font-weight: 100;
+}
+h3 {
+	font-family: helvetica;
+	font-size: 22px;
+	color: #27272;
+	margin: 10px 0px;
+}
+.left h3 {
+	margin-left: 0%;
+}
+p {
+	font-family: helvetica;
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #272727;
+}
+.disclaimer {
+	font-size: 0.7em;
+}
+a:link {
+	color: #262626;
+	text-decoration: none;
+}
+a:visited {
+	color: #272727;
+	text-decoration: none;
+}
+a:hover {
+	color: #272727;
+	text-decoration: none;
+}
+a:active {
+	color: #272727;
+	text-decoration: none;
+}
+article a:link {
+	color: #456aad;
+	text-decoration: none;
+}
+article a:visited {
+	color: #213761;
+	text-decoration: none;
+}
+article a:hover {
+	color: #213761;
+	text-decoration: none;
+}
+article a:active {
+	color: #64738f;
+	text-decoration: none;
+}
+footer a:link {
+	color: #6f8bc0;
+	text-decoration: none;
+}
+footer a:visited {
+	color: #6f8bc0;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #213761;
+	text-decoration: none;
+}
+footer a:active {
+	color: #64738f;
+	text-decoration: none;
+}
+table a:link {
+	color: #456aad;
+	text-decoration: none;
+}
+table a:visited {
+	color: #213761;
+	text-decoration: none;
+}
+table a:hover {
+	color: #213761;
+	text-decoration: none;
+}
+table a:active {
+	color: #64738f;
+	text-decoration: none;
+}
+
+/* Table */
+
+table {
+	width: 88%;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-top: 34px;
+	float: left;
+	table-layout: fixed;
+	word-wrap: break-word;
+	border-collapse:collapse;
+}
+td {
+	border: #d7d7d7 1px solid;
+	padding: 3px;
+	font-family: helvetica;
+	font-size: 16px;
+}
+.page {
+	width: 40px;
+}
+.chapter {
+	background: #dbdbdb
+}

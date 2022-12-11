@@ -1,0 +1,318 @@
+/* Reset */
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;} .cf:before, .cf:after {content: " ";display: table;} .cf:after {clear: both;} /*.cf {*zoom: 1;}*/
+
+/* Layout */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #2a2a2a;
+    overflow: hidden;
+}
+body {
+	font-family: Lucidia, sans-serif;
+	color: white;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+}
+#space {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.body {
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+.orbit {
+    border-radius: 50%;
+    background-color: rgba(0, 255, 255, 0.05);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+}
+#Mercury {
+	background-color: hsla(264, 95%, 84%, 0.5);
+}
+#Venus {
+	background-color: hsla(99, 100%, 65%, 0.5);
+}
+#Earth {
+	background-color: hsla(209, 100%, 65%, 0.5);
+}
+#Mars {
+	background-color: hsla(0, 100%, 65%, 0.5);
+}
+#Jupiter {
+	background-color: hsla(35, 98%, 65%, 0.5);
+}
+#Saturn {
+	background-color: hsla(299, 100%, 65%, 0.5);
+}
+#Uranus {
+	background-color: hsla(140, 100%, 65%, 0.5);
+}
+#Neptune {
+	background-color: hsla(256, 100%, 55%, 0.5);
+}
+#Pluto {
+
+}
+.planet {
+    top: 50%;
+}
+.moon {
+	
+}
+
+/* Control Panel */
+
+#controls {
+	position: fixed;
+	top: 8px;
+	left: 8px;
+	z-index: 100;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#controls .row {
+	width: 210px;
+	height: 36px;
+	margin: 0px 0px 6px 0px;
+	float: left;
+	clear: left;
+}
+#controls .row .floatLeft {
+	height: inherit;
+	border-radius: 3px 0px 0px 3px;
+	background-color: rgba(0, 0, 0, 0.45);
+	cursor: pointer;
+}
+#controls .row .floatRight {
+	height: inherit;
+	border-radius: 0px 3px 3px 0px;
+	background-color: rgba(0, 0, 0, 0.45);
+	cursor: pointer;
+}
+.button img {
+	margin-top: 12px;
+}
+#controls .center {
+	background-color: rgba(0, 0, 0, 0.30);
+	cursor: default;
+}
+#controls p {
+	margin-top: 8px;
+}
+.floatLeft {
+	float: left;
+}
+.center {
+	width: 90px;
+	height: 36px;
+	float: left;
+	text-align: center;
+}
+.floatRight {
+	float: left;
+}
+img.buttonUp, img.buttonDown {
+	width: 36px;
+}
+img.buttonLeft, img.buttonRight {
+	height: 12px;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.zoomOut img, .zoomIn img {
+	margin-top: 0px;
+}
+.options div {
+	float: left;
+	cursor: pointer;
+}
+.icons {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.icons img, .icons svg {
+	position: relative;
+	top: 0px;
+	width: 16px;
+}
+.lock {
+	margin: 22px 23px 0px 0px;
+	cursor: pointer;
+}
+.multi {
+	margin: 36px 6px 0px 0px;
+	display: none; /* show it once the code has been written */
+	cursor: pointer;
+}
+.white {
+	fill: #ffffff;
+}
+.on {
+	background-color: rgba(255, 255, 255, 0.35) !important;
+}
+.constrain {
+	margin-top: 7px;
+}
+.zoom {
+	display: none;
+}
+.options div {
+	width: 36px;
+	height: inherit;
+	margin-right: 6px;
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgba(0, 0, 0, 0.45);
+	text-align: center;
+}
+#controls .button:hover, #info.button:hover {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+#info {
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.45);
+	font-size: 26px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+#info p {
+	margin: 3px 0px 0px 10px;
+}
+#darken {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.45);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 300;
+	display: none;
+}
+#darken img {
+	width: 400px;
+	margin: 8px 0px 0px 6px;
+}
+#darken #information {
+	width: 90%;
+	overflow: scroll;
+	max-width: 600px;
+	margin: 20px auto 20px auto;
+}
+#darken #information p {
+	margin-bottom: 12px;
+}
+#darken a {
+	color: #ffff8d;
+}
+
+/* Labels */
+
+table#labels {
+	width: 130px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 8px;
+	border-radius: 3px;
+	overflow: hidden;
+	border-collapse: collapse; 
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+table table {
+	width: 100%;
+}
+table table th {
+	padding: 2px 6px;
+	text-align: left;
+}
+table table tbody {
+	display: none;
+}
+table table.planet tbody {
+	display: none !important;
+}
+table table tr {
+	background-color: rgba(0, 0, 0, 0.30);
+}
+table table td {
+	padding: 2px 6px;
+	background-color: rgba(0, 0, 0, 0.20);
+	font-style: italic;
+	cursor: default;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+table table tbody tr td:first-of-type {
+	background-color: rgba(0, 0, 0, 0.40);
+}
+.activeTable {
+	background-color: rgba(0, 0, 0, 0.40);
+}
+
+/* Animations */
+
+.play {
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+}
+.pause {
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+@-webkit-keyframes orbitPrograde {
+	from	{-webkit-transform: rotate(0deg);}
+	to		{-webkit-transform: rotate(-360deg);}
+}
+@keyframes orbitPrograde {
+	from	{transform: rotate(0deg);}
+	to		{transform: rotate(-360deg);}
+}
+@-webkit-keyframes orbitRetrograde {
+	from	{-webkit-transform: rotate(0deg);}
+	to		{-webkit-transform: rotate(360deg);}
+}
+@keyframes orbitRetrograde {
+	from	{transform: rotate(0deg);}
+	to		{transform: rotate(360deg);}
+}
+.hideOrbits {
+	background-color: transparent;
+}
+.sphericalOnly {
+	background-color: transparent;
+}
+table.sphericalOnly {
+	display: none;
+}
+.highlight {
+	background-color: rgba(255, 255, 255, 0.25);
+}

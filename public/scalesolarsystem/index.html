@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.78, user-scalable=no">
+	<title>Scale Solar System</title>
+	<link href="https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link href="https://s3-us-west-1.amazonaws.com/lazy-rama/scalesolarsystem/img/apple-touch-icon.jpg" rel="apple-touch-icon">
+	<link href="scalesolarsystem/css/style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900" type="text/css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+</head>
+<body>
+	
+	<div class="controls">
+		<h3>Destination <small><span class="output">Sun</span></small><small><a href="javascript:;" class="stop"></a></small></h3>
+		<div class="destination">
+			<div><a href="#sun"></a></div><div><a href="#mercury"></a></div><div><a href="#venus"></a></div><div><a href="#earth"></a></div><div><a href="#mars"></a></div><div><a href="#jupiter"></a></div><div><a href="#saturn"></a></div><div><a href="#uranus"></a></div><div><a href="#neptune"></a></div>
+			<a href="#sun">Sun</a>
+			<a href="#mercury">Mercury</a>
+			<a href="#venus">Venus</a>
+			<a href="#earth">Earth</a>
+			<a href="#mars">Mars</a>
+			<a href="#jupiter">Jupiter</a>
+			<a href="#saturn">Saturn</a>
+			<a href="#uranus">Uranus</a>
+			<a href="#neptune">Neptune</a>
+			<div style="clear:both;float:none;width:0px;height:0px;" class="clearfix"></div>
+		</div>
+		<h3>Velocity <small><span class="output">299,792</span>&nbsp;km/s</small></h3>
+		<div class="velocity">
+			<div class="steppers">
+				<div><a href="javascript:;" class="scaleSpeedDown10"><span class="left">&#9001;</span><span class="left2">&#9001;</span>0.1x</a></div>
+				<div><a href="javascript:;" class="scaleSpeedDown2"><span class="left">&#9001;</span>0.5x</a></div>
+				<div class="lcd"><a href="javascript:;" class="output resetSpeed">reset</a></div>
+				<div><a href="javascript:;" class="scaleSpeedUp2">2x<span class="right">&#9002;</span></a></div>
+				<div><a href="javascript:;" class="scaleSpeedUp10">10x<span class="right">&#9002;</span><span class="right2">&#9002;</span></a></div>
+			</div>
+			<div class="presets">
+				<div><a href="javascript:;" class="scaleSpeedSlowest">Apollo&nbsp;10</a></div>
+				<div><a href="javascript:;" class="scaleSpeedSlow">Lightning</a></div>
+				<div><a href="javascript:;" class="scaleSpeedNormal">Light</a></div>
+				<div><a href="javascript:;" class="scaleSpeedFast">60c</a></div>
+				<div><a href="javascript:;" class="scaleSpeedFaster">Warp&nbsp;9</a></div>
+				<div><a href="javascript:;" class="scaleSpeedFastest">WormHole</a></div>
+			</div>
+			<div style="clear:both;float:none;width:0px;height:0px;" class="clearfix"></div>
+		</div>
+		<h3>Scale 
+			<small class="half">B&nbsp;:&nbsp;<span class="output bodyScale">1,000</span>&nbsp;km/pt</small>
+			&nbsp;&nbsp;
+			<small class="half">S&nbsp;:&nbsp;<span class="output spaceScale">1,000</span>&nbsp;km/pt</small>
+		</h3>
+		<div class="scale">
+			<div class="steppers">
+				<p>Body Scale (B)</p>
+				<div><a href="javascript:;" class="scaleBodyDown10"><span class="left">&#9001;</span><span class="left2">&#9001;</span>0.1x</a></div>
+				<div><a href="javascript:;" class="scaleBodyDown2"><span class="left">&#9001;</span>0.5x</a></div>
+				<div class="lcd"><a href="javascript:;" class="output resetBodyScale">reset</a></div>
+				<div><a href="javascript:;" class="scaleBodyUp2">2x<span class="right">&#9002;</span></a></div>
+				<div><a href="javascript:;" class="scaleBodyUp10">10x<span class="right">&#9002;</span><span class="right2">&#9002;</span></a></div>
+			</div>
+			<div class="steppers">
+				<p>Space Scale (S)</p>
+				<div><a href="javascript:;" class="scaleSpaceDown10"><span class="left">&#9001;</span><span class="left2">&#9001;</span>0.1x</a></div>
+				<div><a href="javascript:;" class="scaleSpaceDown2"><span class="left">&#9001;</span>0.5x</a></div>
+				<div class="lcd"><a href="javascript:;" class="output resetSpaceScale">reset</a></div>
+				<div><a href="javascript:;" class="scaleSpaceUp2"><span class="right">&#9002;</span>2x</a></div>
+				<div><a href="javascript:;" class="scaleSpaceUp10"><span class="right">&#9002;</span><span class="right2">&#9002;</span>10x</a></div>
+			</div>
+			<div style="clear:both;float:none;width:0px;height:0px;" class="clearfix"></div>
+		</div>
+		<h3>Options</h3>
+		<div class="options">
+			<div><a href="javascript:;" class="constrain">Constrain<br>Scales</a></div>
+			<div><a href="javascript:;" class="orbitBoundaries">Orbital<br>Boundaries</a></div>
+			<div><a href="javascript:;" class="eccentricityButton">Orbital<br>Eccentricities</a></div>
+			<div class="triple">
+				<div><a href="javascript:;" class="dColor">Co</a></div>
+				<div><a href="javascript:;" class="aColor">lo</a></div>
+				<div><a href="javascript:;" class="tColor">rs</a></div>
+			</div>
+			<div><a href="javascript:;" class="preciseButton">Precision<br>Mode</a></div>
+			<div><a href="https://distantfuturejosh.com/books/" target="_blank">Sweet<br>Reads</a></div>
+<!-- 			<div><a href="javascript:;" class="helpButton">Tutorial</a></div> -->
+			<p>Designed & Coded by &nbsp;&nbsp; <a href="https://www.twitter.com/wetjosh">J. Arthur Wetenkamp</a>&nbsp;&nbsp;</p>
+			<div style="clear:both;float:none;width:0px;height:0px;" class="clearfix"></div>
+		</div>
+	</div>
+	
+	
+	<div class="solar_system">
+		<div id="interplanetary_space_sm" class="interplanetary_space_sm orbit_boundary">
+			<div id="sun" class="sun body"></div>
+		</div>
+		<div id="interplanetary_space_mv" class="interplanetary_space_mv orbit_boundary">
+			<div id="mercury" class="mercury body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_ve" class="interplanetary_space_ve orbit_boundary">
+			<div id="venus" class="venus body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_em" class="interplanetary_space_em orbit_boundary">
+			<div id="earth" class="earth body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_mj" class="interplanetary_space_mj orbit_boundary">
+			<div id="mars" class="mars body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_js" class="interplanetary_space_js orbit_boundary">
+			<div id="jupiter" class="jupiter body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_su" class="interplanetary_space_su orbit_boundary">
+			<div id="saturn" class="saturn body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_un" class="interplanetary_space_un orbit_boundary">
+			<div id="uranus" class="uranus body"></div>
+			<div class="eccentricity"></div>
+		</div>
+		<div id="interplanetary_space_n" class="interplanetary_space_n orbit_boundary">
+			<div id="neptune" class="neptune body"></div>
+			<div class="eccentricity"></div>
+		</div>
+	</div>
+	<noscript>
+		<div>
+			You don't have JavaScript enabled. This might be painfull... I guess just go that way &rarr;
+		</div>
+	</noscript>
+	<script src="scalesolarsystem/js/script.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-46851222-1', 'distantfuturejosh.com');
+	  ga('send', 'pageview');
+	
+	</script>
+</body>
+</html>
