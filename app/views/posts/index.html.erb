@@ -4,10 +4,13 @@
 
 <div id="posts">
   <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post_path(post) %>
-    </p>
+    <%= render post, show_asterisk: true, 
+                     show_feature_image: true, 
+                     show_taxonomy: true, 
+                     body_limit: 1200,
+                     show_attribution: true,
+                     show_horizontal_rule: true
+    %>
   <% end %>
 </div>
 

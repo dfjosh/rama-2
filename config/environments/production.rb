@@ -92,5 +92,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.web_url = "https://www.distantfuturejosh.com"
-  config.cdn_url = "TODO" # TODO
+  config.cdn_url = "https://lazy-rama.s3.us-west-1.amazonaws.com"
 end

@@ -69,5 +69,5 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   config.web_url = "http://localhost:3000"
-  config.cdn_url = "TODO" # TODO
+  config.cdn_url = "/lazy-rama" # this is my local copy of static assets which I use in place of s3 for development
 end

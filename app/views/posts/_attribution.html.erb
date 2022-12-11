@@ -1,0 +1,12 @@
+<em>
+  <strong>
+    <% if post.author %> 
+      <%= post.author.pen_name ? post.author.pen_name : post.author.full_name %> 
+    <% else %> 
+      Unknown
+    <% end %> 
+  </strong>
+</em>
+at <em><strong><%= post.published_at.in_time_zone("Pacific Time (US & Canada)").strftime("%l:%M %p") %> </strong></em><!-- TODO get the timezone of the browser --> 
+on <em><strong><%= post.published_at.in_time_zone("Pacific Time (US & Canada)").strftime("%B %e, %Y") %> </strong></em><!-- TODO get the timezone of the browser --> 
+<!-- TODO add an edit button --> 

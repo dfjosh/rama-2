@@ -1,5 +1,5 @@
 class Episode < ApplicationRecord
-  belongs_to :podcast
+  belongs_to :podcast, class_name: "Podcast"
   belongs_to :post
   belongs_to :author, class_name: User.to_s, foreign_key: :user_id
   belongs_to :user

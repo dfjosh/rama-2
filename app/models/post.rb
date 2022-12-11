@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
   belongs_to :author, class_name: User.to_s, foreign_key: :user_id
   belongs_to :user
-  has_one :episode
+  has_one :episode, class_name: "Episode"
 
   has_many :post_categories, dependent: :destroy
   has_many :categories, through: :post_categories
@@ -22,28 +22,48 @@ class Post < ApplicationRecord
     slug
   end
   
-  def self.where_post_id(id = [])
-    self.where(id: id)
-  end
-  
-  def self.where_state(states = [])
-    self.where(state: states)
-  end
-  
-  def self.where_tags(tags = [])
-    self.joins(:tags)
-        .where(tags: {name: tags})
+  def self.gutter_columns
+    2
   end
 
-  def self.where_categories(categories = [])
-    self.joins(:categories)
-        .where(categories: {name: categories})
+  def self.content_columns
+    12 - self.gutter_columns * 2
   end
 
-  def self.where_not_categories(categories = [])
-    self.joins(:categories)
-        .where.not(categories: {name: categories})
+  def is_draft?
+    self.state == States::DRAFT ? true : false
   end
+
+  def is_published?
+    self.state == States::PUBLISHED ? true : false
+  end
+
+  def is_archived?
+    self.state == States::ARCHIVED ? true : false
+  end
+
+  # def self.where_post_id(id = [])
+  #   self.where(id: id)
+  # end
+  
+  # def self.where_state(states = [])
+  #   self.where(state: states)
+  # end
+  
+  # def self.where_tags(tags = [])
+  #   self.joins(:tags)
+  #       .where(tags: {name: tags})
+  # end
+
+  # def self.where_categories(categories = [])
+  #   self.joins(:categories)
+  #       .where(categories: {name: categories})
+  # end
+
+  # def self.where_not_categories(categories = [])
+  #   self.joins(:categories)
+  #       .where.not(categories: {name: categories})
+  # end
   
   def has_episode?
     episode.present?
@@ -52,4 +72,14 @@ class Post < ApplicationRecord
   def update_podcast_rss_feed!
     episode.podcast.create_rss_feed!(upload: Rails.env.production?)
   end
+
+  def html_body
+    if !self.body
+      return ""
+    else
+      body_with_placeholders_replaced = self.body.gsub(/&cdnURL&/, Rails.configuration.cdn_url.to_s)
+      return body_with_placeholders_replaced.html_safe
+    end
+  end
+
 end

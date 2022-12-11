@@ -2,7 +2,7 @@ class PostsController < ApplicationController
   # before_action :authenticate_user, only: [:create, :update, :destroy]
   
   def index
-    @posts = Post.all.order(created_at: :desc).limit(10) # TODO
+    @posts = Post.all.order(created_at: :desc)#.limit(10) # TODO
   end
   
   def show
@@ -18,7 +18,7 @@ class PostsController < ApplicationController
   end
   
   def create
-    @post = Post.new post_params 
+    @post = Post.new post_params.merge({user_id: 1}) # HACK
     @post.published_at = DateTime.now.utc # TODO allow this to be set in the UI
     if @post.save!
       redirect_to post_url(@post), notice: "Post was successfully created."

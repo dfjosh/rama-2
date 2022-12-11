@@ -1,3 +1,69 @@
-<div id="<%= dom_id post %>">
-    <p><%= post.title %></p>
-</div>
+<article class="row <%= "bg-warning" if post.is_draft? %>">
+    <% if post.is_draft? %>
+        <%= form_with model: post do |form| %>
+            <%= form.hidden_field :state, value: Post::States::PUBLISHED %>
+            <%= form.submit "publish", class: "btn btn-sm btn-default publish-draft-btn" %>
+        <% end %>
+    <% end %>
+  <div class="col-sm-12">
+
+    <div class="row title">
+      <div class="col-sm-<%= Post.gutter_columns %>"></div>
+      <div class="col-sm-<%= Post.content_columns %>">
+        <h1>
+          <%= link_to (post.feature_link ? path_join(Rails.configuration.web_url.to_s, post.feature_link) : post) do %>
+            <% if show_asterisk %>
+              <span class="bi bi-asterisk"></span>
+            <% end %>
+            <%= post.title %>
+          <% end %>
+        </h1>
+      </div>
+      <div class="col-sm-<%= Post.gutter_columns %>"></div>
+    </div>
+    
+    <% if show_feature_image && post.feature_link %>
+      <div class="row feature-image">
+        <%= link_to path_join(Rails.configuration.web_url.to_s, post.feature_link) do %>
+            <%= image_tag path_join(Rails.configuration.cdn_url.to_s, post.feature_image) %>
+        <% end %>
+      </div>
+    <% end %>
+
+    <div class="row content">
+      <div class="col-sm-<%= Post.gutter_columns %> taxonomy">
+        <% if show_taxonomy %>
+          <%= render "taxonomy", post: post %>
+        <% end %>
+      </div>
+      <div class="col-sm-<%= Post.content_columns %> text">
+        <p><%= truncate(post.html_body, length: body_limit) %></p>
+        <% if show_attribution %>
+          <p>&mdash; by <%= render "attribution", post: post %></p>
+        <% end %>
+      </div>
+      <div class="col-sm-<%= Post.gutter_columns %> episode-info">
+        <% if post.episode %>
+          <%= link_to post.episode.podcast.apple_podcasts_link do %> <!-- TODO: can I link to specific episodes? -->
+            <%= image_tag path_join(Rails.configuration.cdn_url.to_s, "Apple_Podcast_Icon.png") %>
+          <% end %>
+          <%= link_to path_join(Rails.configuration.cdn_url.to_s, post.episode.podcast.slug, post.episode.podcast.external_id.to_s) do %> <!-- TODO: I have no idea why this is what it is... -->
+            <i class=bi-rss-fill style="color: orange;"></i>
+          <% end %>
+          <br />
+          <button type="button" class="btn btn-xs btn-info">Episode <%= post.episode.number %></button>
+          <button type="button" class="btn btn-xs btn-info">Length <%= pretty_duration post.episode.duration %></button>
+          <% if post.episode.explicit %>
+            <p>
+              <button type="button" class="btn btn-xs btn-danger">
+                Explicit
+              </button>
+            </p>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <hr class=<%= show_horizontal_rule ? "" : "invisible" %>>
+
+  </div>
+</article>

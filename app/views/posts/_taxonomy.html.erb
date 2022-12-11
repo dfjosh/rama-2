@@ -1,0 +1,22 @@
+<% if post.categories %> 
+  <ul class="list-unstyled">
+    <% post.categories.each do |category| %> 
+      <li>
+        <button type="button" class="btn btn-xs btn-success">
+          <%= category.name %> 
+        </button>
+      </li>
+    <% end %> 
+  </ul>
+<% end %> 
+<% if post.tags %> 
+  <ul class="list-unstyled">
+    <% post.tags.each do |tag| %> 
+      <li>
+        <button type="button" class="btn btn-xs btn-info">
+          <%= tag.name %> 
+        </button>
+      </li>
+    <% end %> 
+  </ul>
+<% end %> 

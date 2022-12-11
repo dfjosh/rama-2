@@ -1,4 +1,5 @@
 class Podcast < ApplicationRecord
+
   belongs_to :author, class_name: User.to_s, foreign_key: :user_id
   belongs_to :user
   has_many :episodes
@@ -84,5 +85,9 @@ class Podcast < ApplicationRecord
     rss.close
     
     rss.unlink
+  end
+
+  def apple_podcasts_link
+    "https://podcasts.apple.com/us/podcast/#{self.slug}/id#{self.external_id}"
   end
 end
