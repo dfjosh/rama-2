@@ -1,0 +1,170 @@
+main.posts.container-fluid {
+  margin-top: 44px;
+  max-width: 1440px;
+}
+
+.posts {
+  article.post {
+    position: relative;
+
+    .title h1 span {
+      vertical-align: bottom;
+    }
+
+    .content .taxonomy {
+      padding-right: 0px;
+    }
+    .content .episode-info .apple-podcasts-link img {
+      // width: 100%;
+      // margin-bottom: 12px;
+    }
+    .content .episode-info button {
+      margin-bottom: 4px;
+    }
+    .feature-image a {
+      display: block;
+    }
+    .feature-image img {
+      height: 250px;
+      margin-bottom: 12px;
+    }
+    button.publish-draft-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      z-index: 1;
+    }
+    h1 {
+      /* padding-left: 60px;
+      text-indent: -32px; */
+    }
+    hr {
+      border-top-width: 1px;
+      width: 64%;
+    }
+    hr.invisible {
+      margin: 30px 0px;
+    }
+    .content .text img {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      display: block;
+      border-radius: 3px;
+    }
+    .content .text img.alignnone {
+      
+    }
+    .content .text img.aligncenter {
+      /* text-align: center; */
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .content .text img.alignright {
+      float: right;
+      margin-left: 25px;
+    }
+    .content .text img.alignleft {
+      float: left;
+      margin-right: 25px;
+    }
+    .content .text img.size-full {
+      width: 100%;
+    }
+    .content .text img.size-large {
+      width: 90%
+    }
+    .content .text img.size-medium {
+      width: 60%
+    }
+    .content .text img.size-small {
+      width: 35%
+    }
+    .content .text img.size-thumbnail {
+      width: 20%;
+    }
+
+    .apple-podcasts-link {
+      text-decoration: none;
+      img {
+        height: 30px;
+      }
+    }
+
+    .rss-feed-link {
+      text-decoration: none;
+
+      .bi-rss-fill {
+        font-size: 30px;
+        position: relative;
+        bottom: -6px
+      }
+    }
+    .rss-feed-link.btn {
+      .fa {
+        font-size: inherit;
+        bottom: inherit;
+      }
+    }
+    .rss-feed-link:hover {
+      text-decoration: none;
+      color: #337ab7;
+    }
+    .rss-feed-link:active {
+      color: #337ab7;
+    }
+
+    .taxonomy ul {
+      text-align: right;
+    }
+    .taxonomy li {
+      margin-bottom: 2px;
+    }
+    .taxonomy button {
+      border: none;
+    }
+
+    .comments li {
+      margin-bottom: 18px;
+    }
+    .comments li p {
+      margin: 0px;
+    }
+    .comments li p.bg-disabled {
+      padding: 15px;
+      border-radius: 3px;
+    }
+
+    @media (max-width: 768px) {
+      .taxonomy ul {
+        text-align: left;
+        display: inline-block;
+      }
+      .taxonomy li {
+        margin-bottom: auto;
+        display: inline-block;
+      }
+    }
+
+    @media screen and (max-width: 1124px) {
+      
+    }
+
+    @media screen and (max-width: 768px) {
+      h1 {
+        font-size: 48px;
+      }
+      .feature-image img {
+        height: 200px;
+      }
+    }
+
+    @media screen and (max-width: 540px) {
+      h1 {
+        font-size: 42px;
+      }
+      .feature-image img {
+        height: 150px;
+      }
+    }
+  } 
+}

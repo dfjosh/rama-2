@@ -1,5 +1,4 @@
 class Podcast < ApplicationRecord
-
   belongs_to :author, class_name: User.to_s, foreign_key: :user_id
   belongs_to :user
   has_many :episodes

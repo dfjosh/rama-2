@@ -1,0 +1,33 @@
+.goodreads-reviews .goodreads-review-comp {
+  hr {
+    margin-top: 10px;
+  }
+  h5 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 14px;
+  }
+  p.author i {
+    color: #666;
+  }
+  p.body {
+    min-height: 64px;
+    
+    .book-img {
+      float: left;
+      width: 60px;
+      margin: 4px 10px 5px 0px;
+      border-radius: 1px;
+    }
+  }
+  p.completed {
+    text-align: right;
+    font-weight: bold;
+    color: #666;
+  }
+  span.rating {
+    float: right;
+  }
+}

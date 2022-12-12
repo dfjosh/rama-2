@@ -1,0 +1,34 @@
+<nav class="nav">
+  <ul>
+    <li>
+      <%= link_to posts_url(page: 1, categories: nil) do %>
+        <i class="bi-lightning-fill"></i>
+        <span>Feed</span>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to podcasts_url do %>
+        <i class="bi-broadcast-pin"></i>
+        <span>Podcasts</span>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to posts_url(page: 1, categories: "Stories") do %>
+        <i class="bi-pencil-fill"></i>
+        <span>Stories</span>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to posts_url(categories: "Projects") do %>
+        <i class="bi-code-slash"></i>
+        <span>Code</span>
+      <% end %>
+    </li>
+    <li>
+      <%= link_to "about" do %>
+        <i class="bi-person-badge"></i>
+        <span>Me</span>
+      <% end %>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,11 @@
+<div class="<%= "header #{slug || 'default'}-header" %>">
+  <%= link_to posts_url do %>
+    <% if !slug %>
+      <div class="title">
+        <h1>DistantFutureJOSH</h1>
+        <h2>A Present Day Web Log</h2>
+      </div>
+      <%= image_tag path_join(Rails.configuration.cdn_url, "/uploads/2014/01/dfjHeader_2160x622_grey_transparent.png") %>
+    <% end %>
+  <% end %>
+</div>

@@ -1,2 +1,53 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+// @import "admin.scss";
+// @import "login.scss";
+// @import "podcasts.scss";
+// @import "projects.scss";
+@import "posts.scss";
+// @import "about.scss";
+
+// @import "components/admin-toolbar-comp.scss";
+// @import "components/goodreads-comp.scss";
+// @import "components/goodreads-review-comp.scss";
+@import "header.scss";
+@import "nav.scss";
+// @import "components/pagination-comp.scss";
+// @import "components/podcast-comp.scss";
+// @import "components/post-modal-comp.scss";
+// @import "components/twitter-comp.scss";
+
+// DELETED b/c added to posts @import "components/rss-feed-link-comp.scss";
+// DELETED b/c added to posts @import "components/post-comp.scss";
+// DELETED b/c added to posts @import "components/apple-podcasts-link-comp.scss";
+// DELETED b/c added to posts @import "components/post/comments-comp.scss";
+// DELETED b/c added to posts @import "components/post/taxonomy-comp.scss";
+
+.bg-disabled {
+  background-color: #eee;
+}
+.inline {
+  display: inline;
+}
+blockquote {
+  margin-top: 20px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+article .title h1 {
+  font-size: 56px;
+  font-weight: 900;
+  letter-spacing: -3.5px;
+}
+article .title h1 a {
+  color: #333;
+}
+article .title h1 a:hover {
+  color: #666;
+}

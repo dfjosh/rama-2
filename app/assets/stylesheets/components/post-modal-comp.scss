@@ -1,0 +1,21 @@
+.post-modal-comp {
+  h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .input-group {
+    margin-bottom: 15px; // HACK I don't know why I need this. Stopped working after switching to input-group
+  }
+  ul {
+    text-align: right;
+  }
+  li {
+    margin-bottom: 2px;
+  }
+  .taxonomy button {
+    border: none;
+  }
+  .content .taxonomy {
+    padding-right: 0px;
+  }
+}

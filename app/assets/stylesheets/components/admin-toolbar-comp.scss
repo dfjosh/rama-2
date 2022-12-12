@@ -1,0 +1,14 @@
+.admin-toolbar-comp {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+.admin-toolbar-comp nav.navbar {
+  min-height: 28px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+.admin-toolbar-comp .container-fluid {
+  margin: 4px 5px 3px 5px;
+}

@@ -1,0 +1,42 @@
+.haiku {
+  width: 500px;
+  margin: 36px auto;
+}
+.haiku pre {
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0px;
+}
+.haiku em {
+  margin-left: -76px;
+}
+main.about.container-fluid {
+  margin-top: 64px;
+  max-width: 1440px;
+}
+
+main.about {
+  p {
+    font-family: Georgia;
+    font-size: 18pt;
+  }
+  .social-media {
+    width: 50%;
+    float: left;
+  }
+  .goodreads-reviews h3 {
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 10px;
+    
+    small {
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main.about .social-media {
+    width: 100%;
+  }
+}

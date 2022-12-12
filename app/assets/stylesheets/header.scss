@@ -1,0 +1,203 @@
+.header {
+  background-color: #3e3e3e;
+
+  a {
+    display: block;
+    max-width: 1080px;
+    margin: 0px auto;
+    position: relative;
+  }
+  a .title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 32px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 32px;
+    margin-top: 15px;
+  }
+  a:link, 
+  a:visited, 
+  a:hover, 
+  a:active {
+    color: #565656;
+  }
+  a img {
+    // width: 50%;
+    max-width: 800px;
+    float: right;
+    padding: 12px;
+    // position: absolute;
+    // bottom: 40px;
+    // right: 10px;
+  }
+}
+
+.header.full-width a {
+  max-width: 100%;
+}
+
+.header.admin-toolbar-margin {
+  margin-top: 32px;
+}
+
+.header.default-header a {
+  width: 100%;
+  height: 366px;
+  // background-image: url("https://lazy-rama.s3-us-west-1.amazonaws.com/uploads/2014/01/dfjHeader_2160x622_grey_transparent.png");
+  background-position: center;
+  background-size: cover;
+}
+.header.science-fiction-shorts-header {
+  position: relative;
+
+  a {
+    width: 100%;
+    height: 366px;
+    // max-width: none;
+    background-image: url("https://lazy-rama.s3-us-west-1.amazonaws.com/science-fiction-shorts/science-fiction-shorts-header.png");
+    background-position: center;
+    background-size: cover;
+  }
+  a h1 {
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    font-size: 200px;
+    
+  }
+  h1 {
+    position: relative;
+    z-index: 100;
+
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header a img {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 1439px) { // -1px otherwise nav breaks
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 275px;
+  }
+  .header a img {
+    width: 100%;
+    // position: static;
+    // margin-top: -2%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 250px;
+  }
+  .header a img {
+    width: 100%;
+    position: static;
+    margin-top: -2%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 200px;
+  }
+  .header a img {
+    width: 100%;
+    position: static;
+    margin-top: -4%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 150px;
+  }
+  .header a img {
+    width: 100%;
+    position: static;
+    margin-top: -6%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header.science-fiction-shorts-header a,
+  .header.default-header a {
+    height: 125px;
+  }
+  .header a img {
+    width: 100%;
+    position: static;
+    margin-top: -6%;
+  }
+}
+@media screen and (max-width: 321px) {
+  .header a img {
+    margin-top: -3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 36px;
+    margin-left: 24px
+  }
+  .header h2 {
+    font-size: 16px;
+    margin-left: 24px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header h1 {
+    font-size: 24px;
+    margin-left: 14px;
+    margin-bottom: 4px;
+    margin-top: 8px;
+  }
+  .header h2 {
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header h1 {
+    font-size: 24px;
+    margin-left: 12px;
+    margin-bottom: 4px;
+    margin-top: 8px;
+  }
+  .header h2 {
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: -4px;
+    // display: none;
+  }
+  .header .nav a {
+    font-size: 12px;
+    padding: 8px;
+  }
+  .header .nav ul {
+    width: 300px;
+  }
+  .header .nav ul li {
+    width: 75px;
+  }
+}

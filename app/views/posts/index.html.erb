@@ -1,8 +1,12 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Posts</h1>
+<!-- {{header-comp showTitle=true fullWidth=true class="default-header"}} -->
 
-<div id="posts">
+<!-- {{nav-comp}} -->
+
+<%= link_to "New post", new_post_path %>
+
+<main class="posts container-fluid">
   <% @posts.each do |post| %>
     <%= render post, show_asterisk: true, 
                      show_feature_image: true, 
@@ -12,6 +16,7 @@
                      show_horizontal_rule: true
     %>
   <% end %>
-</div>
 
-<%= link_to "New post", new_post_path %>
+  <!-- {{pagination-comp store=store limit=limit page=page total=total}} -->
+
+</main>

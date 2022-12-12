@@ -1,4 +1,4 @@
-<article class="row <%= "bg-warning" if post.is_draft? %>">
+<article class="row post <%= "bg-warning" if post.is_draft? %>">
     <% if post.is_draft? %>
         <%= form_with model: post do |form| %>
             <%= form.hidden_field :state, value: Post::States::PUBLISHED %>
@@ -44,11 +44,11 @@
       </div>
       <div class="col-sm-<%= Post.gutter_columns %> episode-info">
         <% if post.episode %>
-          <%= link_to post.episode.podcast.apple_podcasts_link do %> <!-- TODO: can I link to specific episodes? -->
+          <%= link_to post.episode.podcast.apple_podcasts_link, class: "apple-podcasts-link" do %> <!-- TODO: can I link to specific episodes? -->
             <%= image_tag path_join(Rails.configuration.cdn_url.to_s, "Apple_Podcast_Icon.png") %>
           <% end %>
-          <%= link_to path_join(Rails.configuration.cdn_url.to_s, post.episode.podcast.slug, post.episode.podcast.external_id.to_s) do %> <!-- TODO: I have no idea why this is what it is... -->
-            <i class=bi-rss-fill style="color: orange;"></i>
+          <%= link_to path_join(Rails.configuration.cdn_url.to_s, post.episode.podcast.slug, post.episode.podcast.external_id.to_s), class: "rss-feed-link" do %> <!-- TODO: I have no idea why this is what it is... -->
+            <i class="bi-rss-fill"></i>
           <% end %>
           <br />
           <button type="button" class="btn btn-xs btn-info">Episode <%= post.episode.number %></button>
